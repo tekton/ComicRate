@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Jan 18 22:19:45 PST 2012
+default-http\://repo1.maven.org/maven2/.lastUpdated=1326953985153
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework\:spring-asm\:pom\:3.0.6.RELEASE from/to central (http\://repo1.maven.org/maven2)\: Failed to transfer http\://repo1.maven.org/maven2/org/springframework/spring-asm/3.0.6.RELEASE/spring-asm-3.0.6.RELEASE.pom. Error code 416, Requested Range Not Satisfiable

@@ -330,8 +330,9 @@ public class Comic extends SQLController {
 	}
 	
 	/**
+	 * The actual act of putting a comic in a database
 	 * 
-	 * @return
+	 * @return rtn_str is returned, though as of right now it's always blank
 	 */
 	public String putComicInDB() {
 		//take the info in "this" and create an entry
@@ -676,7 +677,7 @@ public class Comic extends SQLController {
 	 * Really only used by the JSP's, this is all the backend html to make the javascript and css work on pages where things aren't editable...
 	 * @param var Name of the variable to use
 	 * @param c_name Column name
-	 * @return
+	 * @return The string for the stars display
 	 */
 	public String create_stars_input(String var, String c_name) {
 		String stars = "<div id=\""+this.id+"-stars-"+c_name+"\">"+

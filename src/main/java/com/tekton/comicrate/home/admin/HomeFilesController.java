@@ -108,11 +108,13 @@ public class HomeFilesController extends SQLController {
     }	
 
 	/**
+	 * Eventually this will move to a JSON request most likely
 	 * 
-	 * @param model
-	 * @param locale
-	 * @param id
-	 * @return
+	 * @param request Standard HTTP request
+	 * @param response Standard HTTP response
+	 * @param id The ID of the file
+	 * @return Nothing for now...
+	 * @throws Exception
 	 */
 	@RequestMapping(value="/home/transfer/{id}", method=RequestMethod.GET)
     public ModelAndView transfer(HttpServletRequest request, HttpServletResponse response, @PathVariable("id") String id) throws Exception {
