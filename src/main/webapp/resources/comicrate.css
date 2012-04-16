@@ -1,0 +1,225 @@
+/*
+
+	there's also a jquery UI css file is refereneced, too!
+
+*/
+
+body{ font: 90% "Trebuchet MS", sans-serif; margin: 50px;}
+
+/*
+#content {
+	padding: 20px;
+	background-color: #aaffaa;
+	margin: auto;
+	width: 1000px;
+}
+*/
+
+#top {
+	padding: 20px;
+	margin: auto;
+	width: 1000px;
+	color: white;
+}
+
+
+.rate {
+	padding: 5px 5px 5px 3px;
+	background-color: white;
+	color: black;
+	border: 1px white solid;
+}
+
+.cmc {
+	padding: 5px 3px 5px 5px;
+	background-color: black;
+	color: white;
+	border: 1px white solid;
+}
+
+.cmc a, .rate a, .cmc a:visited, .rate a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top_nav-item {
+	font: 75% Verdana, sans-serif;
+	margin-left: 15px;
+}
+
+.top_nav-item a, .top_nav-item a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top_nav-item a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+/*
+	From projects I've done with Dana Pull; his art my code
+*/
+
+		body {
+			background: black;
+			color: white;
+			text-align: center;
+			min-width: 1024px;
+		}
+		
+		.report{
+			color: #938853;
+			font-size: small;
+		}
+		
+		.report a {
+			color: #9bff4b;
+			font-weight: bold;
+			font-size: medium;
+		}
+
+		.hotfix {
+			color: #938853;
+			font-size: small;
+		}
+		
+		.hotfix a {
+			color: #9bff4b;
+			font-weight: bold;
+			font-size: medium;
+		}
+		
+		.status{
+			color: white;
+			font-weight: bold;
+			font-size: medium;
+		}
+		
+		.input_table {
+			width: 100%;
+			color: #eee5b2;
+			font-weight: bold;
+		}
+		
+		.input_table tr {
+			padding-top: 10px;
+		}
+		
+		#main_form {
+			float: left; 
+			width: 500px;
+			padding: 10px;
+			border: 0px red solid;
+			color: white;
+		}
+		
+		#main_form a, #main_form a:visited {
+			color: white;
+			text-decoration: none;
+		}
+		
+		#main_form table {
+			margin: 0 auto;
+		}
+		
+		#content {
+			background: url(/ComicRate/resources/images/_background.png) no-repeat top left;
+			padding-top: 30px;
+			width: 897px;
+			margin: 0 auto;
+			align: left;
+			clear: both;
+		}
+		
+		#container {
+			width: 1024px;
+			margin: 0 auto;
+			clear: both;
+			border: 0px green solid;
+		}
+		
+		#right-nav {
+			float: right;
+			width: 335px;
+			border: 0px blue solid;
+			background: url(/ComicRate/resources/images/_separatorline.png) top left no-repeat;
+			font-family: Verdana;
+			padding-left: 15px;
+			padding-top: 10px;
+			padding-right: 10px;
+			text-align: left;
+			font-size: small;
+		}
+		
+		#show_hide, #summaryBox, #characterBox {
+			display: none;
+			position:absolute;
+			top: 1;
+			left: 380px;
+			width:300px;
+			background: black;
+			padding: 10px;
+			border: 2px solid white;
+		}
+		
+		#search {
+			font-size: large;
+			font-weight: bold;
+			padding-top: 2em;
+		}
+		
+	/* Random Custom Stuff*/
+
+		#solo {
+			width: 700px;
+			margin: 0 auto;
+			clear: both;
+		}
+
+		#solo a {
+			color: inherit;
+			text-decoration: underline;
+		}
+
+		table.tablesorter tbody tr.even td {
+			background: #555;
+			color: white;
+		} 
+
+		#results {
+			width: 100%;
+		}
+
+	#right-nav a, #right-nav a:visited {
+		color: white;
+		text-decoration: none;
+	}
+	
+	#right-nav a:hover {
+		text-decoration: underline;
+		color: grey;
+	}
+
+
+
+	#authTabs .ui-widget-content {
+		background-color: transparent;
+		background-image: none;
+		color: white;
+		border: 0px solid black;
+	}
+	
+	#authTabs .ui-tabs {
+		border: 0px solid black;
+		background-color: transparent;
+		background-image: none;
+		padding: 0px;
+	}
+	
+	#authTabs {
+		width: 800px;
+		margin: 0 auto;
+		background-color: transparent;
+		background-image: none;
+	}

@@ -1,0 +1,1 @@
+<jsp:include page='comic_show_one_user.jsp'/>
