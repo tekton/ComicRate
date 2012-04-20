@@ -226,8 +226,9 @@ body{ font: 90% "Trebuchet MS", sans-serif; margin: 50px;}
 	
 /**** jqueryUI related ****/
 span.ui-icon {
-  float:left;
+  
   margin-bottom:0;
   margin-right:4px;
   margin-top:0;
+  display: inline-block;
 }
