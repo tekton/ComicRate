@@ -174,6 +174,28 @@
 				<div><a href="<c:url value="/home/download/${item.value.id}" />">${item.value.link_disp}</a> 
 					[<a href="<c:url value="/home/edit/${item.value.id}/from/${comic.id}" />">E</a>]
 					[<a href="<c:url value="/home/transfer/${item.value.id}" />">T</a>]
+					<span class="ui-widget ui-icon ui-icon-plus ui-state-default ui-corner-all" id="transfer_${item.value.id}">J</span>
+					<script>
+						$(document).ready(function(){
+							$("#transfer_${item.value.id}").click(function(){
+								var transfer_url = "<c:url value="/home/json/transfer/${item.value.id}" />";
+								$.ajax({
+									type: "GET",
+									url: transfer_url,
+									processData: true,
+									data: {},
+									dataType: "json",
+									success: function(json) {
+										//alert(json.success);
+										$("#transfer_${item.value.id}").removeClass('ui-state-default');
+									},
+									error: function(x,y,z) {
+										alert("there was an error...");
+									}
+								});
+							});
+						});
+					</script>
 				</div>
 			</c:forEach>
 		<h3>Possible Local Files</h3>

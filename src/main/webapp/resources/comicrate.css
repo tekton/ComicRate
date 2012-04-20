@@ -223,3 +223,11 @@ body{ font: 90% "Trebuchet MS", sans-serif; margin: 50px;}
 		background-color: transparent;
 		background-image: none;
 	}
+	
+/**** jqueryUI related ****/
+span.ui-icon {
+  float:left;
+  margin-bottom:0;
+  margin-right:4px;
+  margin-top:0;
+}

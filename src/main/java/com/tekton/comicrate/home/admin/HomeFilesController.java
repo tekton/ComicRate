@@ -110,6 +110,8 @@ public class HomeFilesController extends SQLController {
 	/**
 	 * Eventually this will move to a JSON request most likely
 	 * 
+	 * TODO: add error handling
+	 * 
 	 * @param request Standard HTTP request
 	 * @param response Standard HTTP response
 	 * @param id The ID of the file
@@ -140,7 +142,44 @@ public class HomeFilesController extends SQLController {
         this.closeConnection();
         
         return null;
-    }		
+    }
+	
+	@RequestMapping(value="/home/json/transfer/{id}", method=RequestMethod.GET, headers="Accept=application/xml, application/json")
+    public String json_transfer(Model model, Locale locale, @PathVariable("id") String id) throws Exception {
+        
+		this.createConnection();
+
+		HomeFile h_file = new HomeFile(this.conn);
+		h_file.setId(id);
+		h_file.getFileFromDB();
+
+        File file = new File(h_file.getPath());
+        String f_name = h_file.getComic() + " " + h_file.getNumber() + "." + h_file.getType();
+        String base = "F:\\transfer\\"+f_name;
+        File out_file = new File(base);
+        
+        this.closeConnection(); //shouldn't need the connection for anything anymore
+
+        model.addAttribute("fileDestination", base);
+        model.addAttribute("sourceDestination", f_name);
+        
+        if(out_file.exists()) {
+        	model.addAttribute("success", "already exists");
+        	return "json_transfer";
+        } else {
+	        Path in = file.toPath();
+	        Path out = out_file.toPath();
+	        
+	        Files.copy(in,out);
+
+	        model.addAttribute("success", "true");
+	        
+	        return "json_transfer";
+        }
+        
+        
+    }
+	
 	@RequestMapping(value="/home/edit/{id}", method=RequestMethod.GET)
 	public String edit(Model model, Locale locale, @PathVariable("id") String id) {
 		this.createConnection();
