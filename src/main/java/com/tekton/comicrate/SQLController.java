@@ -16,10 +16,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class SQLController {
 	public Connection conn;
 	public String CONNECTION_URL = "jdbc:mysql://localhost/comicrate?user=comicrate&password=Blizzard1";
 	//public String CONNECTION_URL = "jdbc:mysql://mysql.tektonsnow.com/comicrate?user=comicrate&password=Blizzard1";
+	
+	private static final Logger sql_logger = LoggerFactory.getLogger(SQLController.class);
 	
 	/** 
 	 * Given the limited nature of this application connection can be made and closed in rapid succession and it's not so bad on the DB really
@@ -52,7 +57,11 @@ public class SQLController {
 			System.out.println( "SQLController closeConnection didn't work" );
 			System.out.println( e.getMessage() );
 			e.printStackTrace();
-        }
+		} catch(NullPointerException e) {
+			sql_logger.info( "Null pointer on the DB close in SQLController");
+		}
+		
+		/*
         try {
         	this.conn = null;
         } catch (Exception e) {
@@ -61,6 +70,7 @@ public class SQLController {
 			System.out.println( e.getMessage() );
 			e.printStackTrace();        	
         }
+        */
 	}
 	
 }

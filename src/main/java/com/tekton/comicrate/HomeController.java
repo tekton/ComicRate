@@ -79,10 +79,16 @@ public class HomeController extends SQLController {
 				result = stmt.executeQuery(q);
 			} catch(SQLException e) {
 				//basically "what went wrong this time?!"
-				System.out.println( "what went wrong this time?!");
-				System.out.println( "SQLException: " + e.getMessage() );
-				System.out.println( "SQLState:     " + e.getSQLState() );
-				System.out.println( "VendorError:  " + e.getErrorCode() );
+				logger.info( "what went wrong this time?!");
+				logger.info( "SQLException: " + e.getMessage() );
+				logger.info( "SQLState:     " + e.getSQLState() );
+				logger.info( "VendorError:  " + e.getErrorCode() );
+				
+				return map;
+			} catch(NullPointerException e) {
+				logger.info( "Null pointer on the DB in HomeController");
+				
+				return map;
 			}
 			
 
@@ -96,11 +102,19 @@ public class HomeController extends SQLController {
 				y++;
 			}
 			
-		} catch( Exception e ) {
-			System.out.println( "HOMECONTROLLER BROKED!" );
-			System.out.println( e.getMessage() );
-			e.printStackTrace();
-		} 
+		} catch(NullPointerException e) {
+			logger.info( "Null pointer on the outter DB in HomeController");
+			
+			return map;
+		} catch(SQLException e) {
+			//basically "what went wrong this time?!"
+			logger.info( "stmt or result set not working right");
+			logger.info( "SQLException: " + e.getMessage() );
+			logger.info( "SQLState:     " + e.getSQLState() );
+			logger.info( "VendorError:  " + e.getErrorCode() );
+			
+			return map;
+		}
 		
 		return map;
 	}
