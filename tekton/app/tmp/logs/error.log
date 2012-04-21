@@ -1,0 +1,1978 @@
+2011-09-18 09:45:05 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.05.11/Memoir 01 (2011) (2nd Printing Variant) (Minutemen-PETA).cbr,../../../deleteMe/Memoir 01 (2011) (2nd Printing Variant) (Minutemen-PETA).cbr) [<a href='function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:06 Warning: Warning (2): rename(../../../Proc/Other/Queen Sonja 13 (2011) (c2c) (Minutemen-Penner).cbr,../../../deleteMe/Queen Sonja 13 (2011) (c2c) (Minutemen-Penner).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:08 Warning: Warning (2): rename(../../../Proc/Other/Invaders Now! 02 (of 5) (2010) (1680px.c2c) (Link-DCP).cbr,../../../deleteMe/Invaders Now! 02 (of 5) (2010) (1680px.c2c) (Link-DCP).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:13 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.06.01/Freedom Fighters 09 (2011) (Minutemen-CalamityCoyote).cbr,../../../deleteMe/Freedom Fighters 09 (2011) (Minutemen-CalamityCoyote).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:26 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.07.20/Locke &amp; Key - Clockworks 01 (of 06) (2011) (2 covers - c2c) (theProletariat-DCP).cbr,../../../deleteMe/Locke &amp; Key - Clockworks 01 (of 06) (2011) (2 covers - c2c) (theProletariat-DCP).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:29 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.07.06/Ultimate X 05 (2011) (Minutemen-CalamityCoyote).cbr,../../../deleteMe/Ultimate X 05 (2011) (Minutemen-CalamityCoyote).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:30 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.08.03/Secret Six 036 (2011) (GreenGiant-DCP).cbr,../../../deleteMe/Secret Six 036 (2011) (GreenGiant-DCP).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:32 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.02.16/Loki 03 (of 4) (2011) (GreenGiant-DCP).cbr,../../../deleteMe/Loki 03 (of 4) (2011) (GreenGiant-DCP).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:42 Warning: Warning (2): rename(../../../Proc/0-Day to Sort/0-Day Week of 2011.05.11/House of Mystery 37 (2011) (Minutemen-Love as Arson).cbr,../../../deleteMe/House of Mystery 37 (2011) (Minutemen-Love as Arson).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:44 Warning: Warning (2): rename(../../../Proc/1 - TO SORT/Veronica 204 (2011) (c2c) (HFB-CPS).cbr,../../../deleteMe/Veronica 204 (2011) (c2c) (HFB-CPS).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:48 Warning: Warning (2): rename(../../../Proc/Other/Fevre Dream 10 (2011) (Minutemen-DeliriousScanner).cbr,../../../deleteMe/Fevre Dream 10 (2011) (Minutemen-DeliriousScanner).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:48 Warning: Warning (2): rename(../../../Proc/Other/Kane &amp; Lynch 005 (2011) (noads) (Legion-CPS).cbr,../../../deleteMe/Kane &amp; Lynch 005 (2011) (noads) (Legion-CPS).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:51 Warning: Warning (2): rename(../../../Proc/Other/Shazam! 01 (2011) (GreenGiant-DCP).cbr,../../../deleteMe/Shazam! 01 (2011) (GreenGiant-DCP).cbr) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-09-18 09:45:52 Warning: Warning (2): rename(../../../Proc/_Sort/Week of 2011.02.16/Let Me In - Crossroads 03 (of 04) (2011) (two covers) (Minutemen-DTs).cbz,../../../deleteMe/Let Me In - Crossroads 03 (of 04) (2011) (two covers) (Minutemen-DTs).cbz) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 504
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-13 06:58:13 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\ComicStoryLines\index.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 06:58:20 Error: [MissingActionException] Action ComicStoryLinesController::populate() could not be found.
+#0 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-13 07:00:06 Error: [MissingControllerException] Controller class BaseListController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:01:13 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:01:22 Error: [MissingControllerException] Controller class StoryLineListController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:01:36 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:03:15 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:03:20 Error: [MissingControllerException] Controller class StoryLineListController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:03:23 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:03:40 Error: [MissingControllerException] Controller class ComicStoryLineController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:04:04 Error: [MissingControllerException] Controller class StoryLineListController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:04:07 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:04:18 Error: [MissingControllerException] Controller class BaseListController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:04:29 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:04:44 Error: [MissingControllerException] Controller class StoryLineListsController could not be found.
+#0 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-10-13 07:07:28 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\add.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:09:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `st...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(963): DboSource->execute('INSERT INTO `st...')
+#3 F:\Comics\tekton\lib\Cake\Model\Model.php(1624): DboSource->create(Object(StoryLineList), Array, Array)
+#4 F:\Comics\tekton\app\Controller\StoryLineListsController.php(42): Model->save(Array)
+#5 [internal function]: StoryLineListsController->add()
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(StoryLineListsController), Array)
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#9 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-10-13 07:09:40 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: StoryLineListsController->view()
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(StoryLineListsController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:09:49 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: StoryLineListsController->edit()
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(StoryLineListsController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:10:14 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: StoryLineListsController->edit()
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(StoryLineListsController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:10:22 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: StoryLineListsController->edit()
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(StoryLineListsController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:11:04 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:24:28 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 07:47:05 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(383): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 07:47:13 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(383): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 07:59:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(383): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:00:47 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(383): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:02:11 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(383): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:03:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(383): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:04:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(383): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:05:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(383): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(383): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:06:25 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(382): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:07:19 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(382): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:08:08 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(382): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:09:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(AppModel))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(382): AppModel->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:10:14 Error: [MissingTableException] Database table story_line_lists for model StoryLineLists was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(382): AppModel->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:10:38 Error: [MissingTableException] Database table story_line_lists for model StoryLineList was not found.
+#0 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('story_line_list...')
+#1 F:\Comics\tekton\lib\Cake\Model\Model.php(721): Model->getDataSource()
+#2 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#3 F:\Comics\tekton\app\Controller\BaseListsController.php(382): StoryLineList->drop_down_list()
+#4 [internal function]: BaseListsController->search()
+#5 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#6 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#7 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#8 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2011-10-13 08:10:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(382): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:18:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop_down_list' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('drop_down_list', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('drop_down_list', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(583): DboSource->fetchAll('drop_down_list', Array, Array)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(721): DboSource->query('drop_down_list', Array, Object(StoryLineList))
+#5 F:\Comics\tekton\app\Controller\BaseListsController.php(382): Model->__call('drop_down_list', Array)
+#6 F:\Comics\tekton\app\Controller\BaseListsController.php(382): StoryLineList->drop_down_list()
+#7 [internal function]: BaseListsController->search()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(BaseListsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(BaseListsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-10-13 08:56:43 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\ComicStoryLines\index.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-13 09:09:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline'    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate(NULL, Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate()
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:10:07 Error: [MissingModelException] ComicStoryLines
+#0 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLines', Array, Array)
+#1 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate('ComicStoryLines')
+#2 [internal function]: ComicStoryLinesController->index()
+#3 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#4 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#5 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#6 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-10-13 09:10:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline'    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLine', Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate('ComicStoryLine')
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:10:25 Error: [MissingModelException] ComicStoryLines
+#0 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLines', Array, Array)
+#1 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate('ComicStoryLines')
+#2 [internal function]: ComicStoryLinesController->index()
+#3 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#4 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#5 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#6 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-10-13 09:10:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline'    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate(NULL, Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate()
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:13:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline'    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate(NULL, Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate()
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:14:01 Error: [MissingModelException] ComicStoryLines
+#0 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLines', Array, Array)
+#1 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate('ComicStoryLines', Array)
+#2 [internal function]: ComicStoryLinesController->index()
+#3 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#4 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#5 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#6 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-10-13 09:14:28 Error: [MissingModelException] ComicStoryLines
+#0 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLines', Array, Array)
+#1 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(21): Controller->paginate('ComicStoryLines', Array)
+#2 [internal function]: ComicStoryLinesController->index()
+#3 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#4 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#5 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#6 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-10-13 09:15:11 Error: [MissingModelException] ComicStoryLines
+#0 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLines', Array, Array)
+#1 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(21): Controller->paginate('ComicStoryLines')
+#2 [internal function]: ComicStoryLinesController->index()
+#3 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#4 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#5 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#6 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-10-13 09:15:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline' AND `id` > 0    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLine', Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(24): Controller->paginate('ComicStoryLine', Array)
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:16:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline' AND `id` > 0    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLine', Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(26): Controller->paginate('ComicStoryLine', Array)
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:16:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'By = 'storyline'    LIMIT 15' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#6 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate('ComicStoryLine', Array, Array)
+#7 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(25): Controller->paginate('ComicStoryLine')
+#8 [internal function]: ComicStoryLinesController->index()
+#9 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#12 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-10-13 09:28:26 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: ComicStoryLinesController->view('1')
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-14 06:55:31 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: ComicStoryLinesController->view('1')
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-14 07:54:03 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: ComicStoryLinesController->view('1')
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-14 07:59:06 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: ComicStoryLinesController->view('1')
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-15 06:06:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.file_name' in 'field list'
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(45): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:07:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comics.file_name' in 'field list'
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(45): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:12:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comics comics LEFT Array  WHERE `storyline` = '6' AND `ComicStoryLine`.`issue_id' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(52): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:12:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comics comics LEFT Array  WHERE `storyline` = '6'' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(52): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:13:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comics b LEFT Array  WHERE `storyline` = '6'' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(52): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:15:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'comics b LEFT Array  WHERE `storyline` = '6'' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `ComicSt...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT `ComicSt...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT `ComicSt...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(51): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 06:59:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by = 'ComicStoryLine.number'' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT ComicSto...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('SELECT ComicSto...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(1036): DboSource->fetchAll('SELECT ComicSto...', false)
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): DboSource->read(Object(ComicStoryLine), Array)
+#5 F:\Comics\tekton\app\Controller\ComicStoryLinesController.php(101): Model->find('all', Array)
+#6 [internal function]: ComicStoryLinesController->view('6')
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#8 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-10-15 07:12:43 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:04 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:06 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:09 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:18 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:21 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:13:24 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:39:14 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:39:54 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:40:42 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 07:40:45 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 187]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 187
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:06:24 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 189]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 189
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:06:38 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 189]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 189
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 108
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:07:32 Error: [MissingActionException] Action ComicStoryLinesController::copy() could not be found.
+#0 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-15 09:11:04 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\View\ComicStoryLines\copy.ctp, line 15]
+Trace:
+include - APP\View\ComicStoryLines\copy.ctp, line 15
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:42:42 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:42:53 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 09:42:57 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:12:48 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-15 10:12:55 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:13:05 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:13:37 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:13:41 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:15:24 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:15:28 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:15:29 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 10:16:39 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 22:20:46 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 22:23:44 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-15 22:23:44 Error: [MissingActionException] Action ComicStoryLinesController::images() could not be found.
+#0 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#1 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-10-15 22:23:46 Error: [NotFoundException] Invalid comic story line
+#0 [internal function]: ComicStoryLinesController->edit()
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicStoryLinesController), Array)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicStoryLinesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-16 10:40:11 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-10-16 10:40:20 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-10-16 10:40:29 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:29:04 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-05 20:29:06 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-05 20:29:10 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-05 20:29:26 Error: [MissingViewException] View file "F:\Comics\tekton\app\View\StoryLineLists\view.ctp" is missing.
+#0 F:\Comics\tekton\lib\Cake\View\View.php(362): View->_getViewFileName(NULL)
+#1 F:\Comics\tekton\lib\Cake\Controller\Controller.php(901): View->render(NULL, NULL)
+#2 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(113): Controller->render()
+#3 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(StoryLineListsController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-05 20:29:42 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:29:45 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:32:00 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:32:02 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:32:06 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:32:10 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-05 20:53:43 Warning: Warning (2): Invalid argument supplied for foreach() in [F:\Comics\tekton\app\Controller\ComicStoryLinesController.php, line 167]
+Trace:
+ComicStoryLinesController::get_series() - APP\Controller\ComicStoryLinesController.php, line 167
+ComicStoryLinesController::view() - APP\Controller\ComicStoryLinesController.php, line 86
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:50 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:51 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:52 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:01:54 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:02:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'HAVING C > 1' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select file_nam...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('select file_nam...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(509): DboSource->fetchAll('select file_nam...')
+#4 [internal function]: DboSource->query('select file_nam...')
+#5 F:\Comics\tekton\lib\Cake\Model\Model.php(2841): call_user_func_array(Array, Array)
+#6 F:\Comics\tekton\app\Controller\ComicsController.php(197): Model->query('select file_nam...')
+#7 [internal function]: ComicsController->duplicates()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-11-28 06:03:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'HAVING C > 1' at line 1
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(436): PDOStatement->execute(Array)
+#1 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('select file_nam...', Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->execute('select file_nam...', Array, Array)
+#3 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(509): DboSource->fetchAll('select file_nam...')
+#4 [internal function]: DboSource->query('select file_nam...')
+#5 F:\Comics\tekton\lib\Cake\Model\Model.php(2841): call_user_func_array(Array, Array)
+#6 F:\Comics\tekton\app\Controller\ComicsController.php(197): Model->query('select file_nam...')
+#7 [internal function]: ComicsController->duplicates()
+#8 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicsController), Array)
+#9 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#10 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#11 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-11-28 06:19:53 Warning: Warning (2): rename(../../../Proc/Other/Dracula - The Company of Monsters 05 (2010) (Minutemen-DTs).cbz,../../../deleteMe/Dracula - The Company of Monsters 05 (2010) (Minutemen-DTs).cbz) [<a href='function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 536
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:22:44 Warning: Warning (2): rename(../../../Proc2/DCPMM/DCP.and.Minutemen.Week.of.12-10-11/Minutemen/Red Lanterns 02 (2011) (Minutemen-ThosTew).cbz,../../../deleteMe/Red Lanterns 02 (2011) (Minutemen-ThosTew).cbz) [<a href='http://php.net/function.rename'>function.rename</a>]: Access is denied. (code: 5) in [F:\Comics\tekton\app\Controller\BaseListsController.php, line 155]
+Trace:
+rename - [internal], line ??
+BaseListsController::delete_logic() - APP\Controller\BaseListsController.php, line 155
+BaseListsController::auto_duplicate_proc() - APP\Controller\BaseListsController.php, line 536
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:27:47 Warning: Warning (2): htmlspecialchars() [<a href='function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 18
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:27:47 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+Helper::url() - CORE\Cake\View\Helper.php, line 215
+HtmlHelper::link() - CORE\Cake\View\Helper\HtmlHelper.php, line 322
+include - APP\View\Comics\duplicates.ctp, line 63
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-11-28 06:27:47 Warning: Warning (2): htmlspecialchars() [<a href='http://php.net/function.htmlspecialchars'>function.htmlspecialchars</a>]: Invalid multibyte sequence in argument in [F:\Comics\tekton\lib\Cake\basics.php, line 176]
+Trace:
+htmlspecialchars - [internal], line ??
+h - CORE\Cake\basics.php, line 176
+include - APP\View\Comics\duplicates.ctp, line 66
+View::_render() - CORE\Cake\View\View.php, line 597
+View::render() - CORE\Cake\View\View.php, line 364
+Controller::render() - CORE\Cake\Controller\Controller.php, line 901
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 113
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-12-22 01:49:28 Warning: Warning (2): PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] A connection attempt failed because the connected party did not  (trying to connect via tcp://localhost:3306) in [F:\Comics\tekton\lib\Cake\Model\Datasource\Database\Mysql.php, line 155]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE\Cake\Model\Datasource\Database\Mysql.php, line 155
+DboSource::__construct() - CORE\Cake\Model\Datasource\DboSource.php, line 244
+ConnectionManager::getDataSource() - CORE\Cake\Model\ConnectionManager.php, line 99
+Model::setDataSource() - CORE\Cake\Model\Model.php, line 3208
+Model::setSource() - CORE\Cake\Model\Model.php, line 1018
+Model::getDataSource() - CORE\Cake\Model\Model.php, line 3232
+Model::find() - CORE\Cake\Model\Model.php, line 2449
+PaginatorComponent::paginate() - CORE\Cake\Controller\Component\PaginatorComponent.php, line 171
+Controller::paginate() - CORE\Cake\Controller\Controller.php, line 1026
+ComicsController::index() - APP\Controller\ComicsController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 476
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 106
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 88
+[main] - APP\webroot\index.php, line 96
+
+2011-12-22 01:49:28 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+" is missing, or could not be created.
+#0 F:\Comics\tekton\lib\Cake\Model\Datasource\DboSource.php(244): Mysql->connect()
+#1 F:\Comics\tekton\lib\Cake\Model\ConnectionManager.php(99): DboSource->__construct(Array)
+#2 F:\Comics\tekton\lib\Cake\Model\Model.php(3208): ConnectionManager::getDataSource('default')
+#3 F:\Comics\tekton\lib\Cake\Model\Model.php(1018): Model->setDataSource('default')
+#4 F:\Comics\tekton\lib\Cake\Model\Model.php(3232): Model->setSource('comics')
+#5 F:\Comics\tekton\lib\Cake\Model\Model.php(2449): Model->getDataSource()
+#6 F:\Comics\tekton\lib\Cake\Controller\Component\PaginatorComponent.php(171): Model->find('all', Array)
+#7 F:\Comics\tekton\lib\Cake\Controller\Controller.php(1026): PaginatorComponent->paginate(NULL, Array, Array)
+#8 F:\Comics\tekton\app\Controller\ComicsController.php(25): Controller->paginate()
+#9 [internal function]: ComicsController->index()
+#10 F:\Comics\tekton\lib\Cake\Controller\Controller.php(476): ReflectionMethod->invokeArgs(Object(ComicsController), Array)
+#11 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(106): Controller->invokeAction(Object(CakeRequest))
+#12 F:\Comics\tekton\lib\Cake\Routing\Dispatcher.php(88): Dispatcher->_invoke(Object(ComicsController), Object(CakeRequest), Object(CakeResponse))
+#13 F:\Comics\tekton\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

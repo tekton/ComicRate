@@ -1,0 +1,145 @@
+#container {
+	margin: auto;
+	width: 1400px;
+	font: medium "Trebuchet MS", sans-serif;
+	padding: 10px;
+	background-color: #919191;
+	border: 5px solid #cacaca;
+	border-radius: 5px;
+}
+
+#top_nav {
+	clear:  both;
+	margin-bottom: 10px;
+	border: 3px solid #208415;
+	background: #3be33b url(images/ui-bg_gloss-wave_50_6eac2c_500x100.png) repeat-x 50% 50%;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px 10px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#float_nav {
+	float: right;
+	width: 300px;
+}
+
+#fn ul li, #lower_content ul li {
+	font-size: small;
+}
+
+#content {
+	width: 680px;
+	float: left;
+}
+
+.ui-state-error {
+	padding: 0 .7em;
+}
+
+.ui-icon-alert {
+	float: left;
+	margin-right: .3em;
+}
+
+.issue {
+	border: 3px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 6px 10px;
+	background-color: white;
+}
+.issue_top {
+	border: 3px solid #2694e8;
+	background: #3baae3 url(images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px 10px;
+}
+
+.issue_top a {
+	color: white;
+	text-decoration: none;
+}
+
+#search {
+	display:inline;
+	float: right;
+	padding: 10px 20px 5px;
+	background: rgba(0, 44, 197, 0.1);
+	margin: auto;
+}
+
+body {
+	background-color: black;
+}
+
+
+/** Tabs **/
+
+/* @group ui-tabs2 */
+
+.ui-tabs2 { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs2 .ui-tabs-nav { margin: 0; padding: .2em .2em 0;}
+.ui-tabs2 .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 1px;
+	margin: auto;
+	border-bottom: 0 !important;
+	padding: 0;
+	white-space: nowrap;
+	width: 40%;
+}
+.ui-tabs2 .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs2 .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs2 .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs2 .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs2 .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.ui-tabs2 .ui-tabs-hide { display: none !important; }
+
+/* @end */
+
+.comment {
+	
+}
+
+.c_title {
+	background: #3baae3;
+	padding: 5px;
+	Color: white;
+	font-size: small;
+	border: 1px solid black;
+	border-bottom-width: 0;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.c_body {
+	padding: 5px;
+	font-size: small;
+	border: 1px solid black;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.sys_title {
+	background-color: #ff9000;
+	padding: 5px;
+	color: #fffeff;
+	font-size: small;
+	border: 1px solid black;
+	border-bottom-width: 0;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.sys_body {
+		padding: 5px;
+	font-size: small;
+	border: 1px solid black;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
