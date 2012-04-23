@@ -232,3 +232,5 @@ span.ui-icon {
   margin-top:0;
   display: inline-block;
 }
+
+.loading {display:none;padding-left:20px; background:url(/ComicRate/resources/images/crystal-arrows.gif) no-repeat center left;}
