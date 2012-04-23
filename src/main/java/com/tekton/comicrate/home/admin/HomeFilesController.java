@@ -5,6 +5,7 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 //import java.io.FileOutputStream;
+import java.util.Enumeration;
 import java.util.Locale;
 
 //import java.nio.channels.FileChannel;
@@ -119,7 +120,9 @@ public class HomeFilesController extends SQLController {
 	 * @throws Exception
 	 */
 	@RequestMapping(value="/home/transfer/{id}", method=RequestMethod.GET)
-    public ModelAndView transfer(HttpServletRequest request, HttpServletResponse response, @PathVariable("id") String id) throws Exception {
+    public ModelAndView transfer(HttpServletRequest request, 
+    		HttpServletResponse response, 
+    		@PathVariable("id") String id) throws Exception {
         
 		this.createConnection();
 
@@ -145,7 +148,9 @@ public class HomeFilesController extends SQLController {
     }
 	
 	@RequestMapping(value="/home/json/transfer/{id}", method=RequestMethod.GET, headers="Accept=application/xml, application/json")
-    public String json_transfer(Model model, Locale locale, @PathVariable("id") String id) throws Exception {
+    public String json_transfer(Model model, 
+    		Locale locale, 
+    		@PathVariable("id") String id) throws Exception {
         
 		this.createConnection();
 
@@ -181,7 +186,9 @@ public class HomeFilesController extends SQLController {
     }
 	
 	@RequestMapping(value="/home/edit/{id}", method=RequestMethod.GET)
-	public String edit(Model model, Locale locale, @PathVariable("id") String id) {
+	public String edit(Model model, 
+			Locale locale, 
+			@PathVariable("id") String id) {
 		this.createConnection();
 		HomeFile file = new HomeFile(this.conn);
 		
@@ -201,8 +208,21 @@ public class HomeFilesController extends SQLController {
 		return "files_edit";
 	}
 	
+	/**
+	 * 
+	 * Get data from the DB based on the files at hand to attach a file to a comic; if done correctly this should allow for easier "clean up" of duplicates! 
+	 * 
+	 * @param model The model (M in MVC) which will have data added to it to show later
+	 * @param locale Internal information
+	 * @param id The ID of the file
+	 * @param c The possible parent book for the file
+	 * @return
+	 */
 	@RequestMapping(value="/home/edit/{id}/from/{c}", method=RequestMethod.GET)
-	public String edit_assign(Model model, Locale locale, @PathVariable("id") String id, @PathVariable("c") String c) {
+	public String edit_assign(Model model, 
+			Locale locale, 
+			@PathVariable("id") String id, 
+			@PathVariable("c") String c) {
 		this.createConnection();
 		HomeFile file = new HomeFile(this.conn);
 		
@@ -218,8 +238,23 @@ public class HomeFilesController extends SQLController {
 		return "files_edit";
 	}
 
+	@RequestMapping(value="/home/h", method=RequestMethod.GET)
+	public String stuff(HttpServletRequest request) {
+		String headername = "";
+		for(Enumeration<?> e = request.getHeaderNames(); e.hasMoreElements();){
+			headername = (String)e.nextElement();
+			System.out.println("Header Name:: "+ headername +" -- "+request.getHeader(headername));
+		}
+		
+		return "home";
+	}
+	
 	@RequestMapping(value="/home/edit/{id}", method=RequestMethod.POST)
-	public String update_file(@ModelAttribute("HomeFile") HomeFile file, BindingResult result, Model model, Locale locale, @PathVariable("id") String id) {
+	public String update_file(@ModelAttribute("HomeFile") HomeFile file,
+			BindingResult result,
+			Model model,
+			Locale locale,
+			@PathVariable("id") String id) {
 		this.createConnection();
 		
 		file.conn = this.conn;
@@ -229,6 +264,7 @@ public class HomeFilesController extends SQLController {
 		
 		model.addAttribute("file", file);
 		
+		//show the book data
 		if(file.parent_book_local != null) {
 			Comic comic = new Comic(this.conn);
 			comic.setId(file.parent_book_local);
@@ -237,6 +273,7 @@ public class HomeFilesController extends SQLController {
 		}
 		
 		this.closeConnection();
+		
 		return "files_edit";
 	}
 }

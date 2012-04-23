@@ -103,15 +103,15 @@ public class HomeController extends SQLController {
 			}
 			
 		} catch(NullPointerException e) {
-			logger.info( "Null pointer on the outter DB in HomeController");
+			logger.info("Null pointer (2) on the outter DB in HomeController");
 			
 			return map;
 		} catch(SQLException e) {
 			//basically "what went wrong this time?!"
-			logger.info( "stmt or result set not working right");
-			logger.info( "SQLException: " + e.getMessage() );
-			logger.info( "SQLState:     " + e.getSQLState() );
-			logger.info( "VendorError:  " + e.getErrorCode() );
+			logger.info("stmt or result set not working right");
+			logger.info("SQLException: " + e.getMessage() );
+			logger.info("SQLState:     " + e.getSQLState() );
+			logger.info("VendorError:  " + e.getErrorCode() );
 			
 			return map;
 		}

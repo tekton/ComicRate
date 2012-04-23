@@ -172,8 +172,9 @@
 		<h3>Confirmed Local Files</h3>
 			<c:forEach var="item" items="${comic.confirmed_files}" varStatus="status">
 				<div><a href="<c:url value="/home/download/${item.value.id}" />">${item.value.link_disp}</a> 
-					<a href="<c:url value="/home/edit/${item.value.id}/from/${comic.id}" />"><span class="ui-widget ui-icon ui-icon-gear ui-corner-all" id="edit_${item.value.id}"></span></a>
-					<span class="ui-widget ui-icon ui-icon-plus ui-corner-all" id="transfer_${item.value.id}">J</span>
+					<a href="<c:url value="/home/edit/${item.value.id}/from/${comic.id}" />">
+					<span class="ui-widget ui-icon ui-icon-gear ui-corner-all" id="edit_${item.value.id}">E</span></a>
+					<span class="ui-widget ui-icon ui-icon-plus ui-corner-all" id="transfer_${item.value.id}">JT</span>
 					<script>
 						$(document).ready(function(){
 							$("#transfer_${item.value.id}").click(function(){
