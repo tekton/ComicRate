@@ -708,6 +708,7 @@ public class Comic extends SQLController {
 	}
 	
 	public String create_stars_user_input(String var, String c_name) {
+		System.out.println(var+" ::: "+c_name);
 		String stars = "<div id=\""+this.id+"-stars-"+c_name+"\">"+
 		        "<select name=\""+c_name+"-sel\" id=\""+this.id+c_name+"\">"+
 			    		"<option value=\"1\">Very poor</option>"+
@@ -730,14 +731,20 @@ public class Comic extends SQLController {
 					"disabled: false,"+
 					"callback: function(ui, type, value){"+
 						"$(\""+this.id+"-stars-"+c_name+"\").hide();"+
-						"$(\""+this.id+c_name+"_loading\").show();"
-					+"}"+
+						"$(\""+this.id+c_name+"_loading\").show();"+
+						"$.post(\"/ComicRate/user/comic/json/update/"+c_name+"\"," +
+							"{'id':'"+this.id+"','val': value},"+
+							"function(data){" +
+								
+							"}"+
+						");"+
+					"}"+
 				"});"+
 				"$(\"#"+this.id+"-stars-"+c_name+"\").stars(\"select\", Math.round("+this.validate_var(var)+"));"+
 				"</script>"+
 				"</div>";
 		
-		stars += "<div class='loading' id='"+this.id+c_name+"_loading'></div>";
+		stars += "<div class='loading' id='"+this.id+c_name+"_loading'>Loading...</div>";
 		
 				return stars;		
 	}

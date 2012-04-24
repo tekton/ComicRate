@@ -17,76 +17,24 @@
 			<td>${comic.overall}</td> -->
 			<td>Overall</td>
 			<td>
-				<div id="stars-overall">
-			        <select name="overall">
-			            <option value="1">Very poor</option>
-			            <option value="2">Poor</option>			            
-			            <option value="3">Not that bad</option>
-			            <option value="4">Fair</option>
-			            <option value="5">Average</option>
-			            <option value="6">Almost Good</option>
-			            <option value="7">Good</option>
-			            <option value="8">Very Good</option>
-			            <option value="9">Excellent</option>
-			            <option value="10">Perfect</option>
-			        </select>
-				</div>
+				${comic.create_stars_user_input(comic.overall, "overall")}
 			</td>
 		<tr>
 			<td>Art</td>
 			<td>
-				<div id="stars-art">
-			        <select name="art">
-			            <option value="1">Very poor</option>
-			            <option value="2">Poor</option>			            
-			            <option value="3">Not that bad</option>
-			            <option value="4">Fair</option>
-			            <option value="5">Average</option>
-			            <option value="6">Almost Good</option>
-			            <option value="7">Good</option>
-			            <option value="8">Very Good</option>
-			            <option value="9">Excellent</option>
-			            <option value="10">Perfect</option>
-			        </select>
-				</div>
+				${comic.create_stars_user_input(comic.art, "art")}
 			</td>
 		</tr>
 		<tr>
 			<td>Story</td>
 			<td>
-				<div id="stars-story">
-			        <select name="story">
-			            <option value="1">Very poor</option>
-			            <option value="2">Poor</option>			            
-			            <option value="3">Not that bad</option>
-			            <option value="4">Fair</option>
-			            <option value="5">Average</option>
-			            <option value="6">Almost Good</option>
-			            <option value="7">Good</option>
-			            <option value="8">Very Good</option>
-			            <option value="9">Excellent</option>
-			            <option value="10">Perfect</option>
-			        </select>
-				</div>
+				${comic.create_stars_user_input(comic.story, "story")}
 			</td>
 		</tr>
 		<tr>
 			<td>Keep Reading?</td>
 			<td>
-				<div id="stars-keep-reading">
-			        <select name="keep-reading">
-			            <option value="1">Very poor</option>
-			            <option value="2">Poor</option>			            
-			            <option value="3">Not that bad</option>
-			            <option value="4">Fair</option>
-			            <option value="5">Average</option>
-			            <option value="6">Almost Good</option>
-			            <option value="7">Good</option>
-			            <option value="8">Very Good</option>
-			            <option value="9">Excellent</option>
-			            <option value="10">Perfect</option>
-			        </select>
-				</div>
+				${comic.create_stars_user_input(comic.likely_to_buy_next, "next")}
 			</td>
 		</tr>
 		<tr>

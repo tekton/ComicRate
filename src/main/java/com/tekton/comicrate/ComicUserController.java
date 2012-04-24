@@ -71,7 +71,7 @@ public class ComicUserController extends SQLController {
 		comic.getComicFromDB();
 		comic.validate_to_zero();
 		
-		System.out.println("ComicUserController 74:: "+comic.reportComic());
+		System.out.println("ComicUserController 2:: "+comic.reportComic());
 		
 		model.addAttribute("comic", comic);
 		
@@ -109,7 +109,7 @@ public class ComicUserController extends SQLController {
 		comic.setId(id);
 		comic.updateUserComic();
 		
-		System.out.println("ComicUserController 112:: "+comic.reportComic());
+		System.out.println("ComicUserController 4:: "+comic.reportComic());
 		
 		model.addAttribute("comic", comic);
 		
@@ -124,5 +124,43 @@ public class ComicUserController extends SQLController {
 			return "redirect:/user/comic/"+id;
 		}
 		*/
+	}
+	
+	@RequestMapping(value="/user/comic/json/update/{slot}", method=RequestMethod.POST)
+	public String update_slot_json(Model model, HttpServletRequest request, @PathVariable("slot") String slot) {
+		String id = request.getParameter("id");
+		String val = request.getParameter("val");
+		
+		model.addAttribute("slot", slot);
+		model.addAttribute("id", id);
+		model.addAttribute("val", val);
+		
+			this.createConnection();
+		
+			Comic comic = new Comic(this.conn);
+			comic.setId(id);
+			comic.getComicFromDB();
+			switch(slot) {
+				case "overall":
+					comic.setOverall(val);
+					comic.updateUserComic();
+					break;
+				case "art":
+					comic.setArt(val);
+					comic.updateUserComic();
+					break;
+				case "story":
+					comic.setStory(val);
+					comic.updateUserComic();
+					break;
+				case "next":
+					comic.setLikely_to_buy_next(val);
+					comic.updateUserComic();
+					break;
+			}
+		
+			this.closeConnection();
+			
+		return "json_slot";
 	}
 }
