@@ -708,7 +708,6 @@ public class Comic extends SQLController {
 	}
 	
 	public String create_stars_user_input(String var, String c_name) {
-		System.out.println(var+" ::: "+c_name);
 		String stars = "<div id=\""+this.id+"-stars-"+c_name+"\">"+
 		        "<select name=\""+c_name+"-sel\" id=\""+this.id+c_name+"\">"+
 			    		"<option value=\"1\">Very poor</option>"+
