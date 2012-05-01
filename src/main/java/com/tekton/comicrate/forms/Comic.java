@@ -707,6 +707,14 @@ public class Comic extends SQLController {
 		return stars;
 	}
 	
+	/**
+	 * 
+	 * JSP output for user inputs with custom functions and jquery ajax/callback
+	 * 
+	 * @param var
+	 * @param c_name
+	 * @return
+	 */
 	public String create_stars_user_input(String var, String c_name) {
 		String stars = "<div id=\""+this.id+"-stars-"+c_name+"\">"+
 		        "<select name=\""+c_name+"-sel\" id=\""+this.id+c_name+"\">"+

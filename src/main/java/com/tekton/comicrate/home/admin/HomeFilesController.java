@@ -276,4 +276,34 @@ public class HomeFilesController extends SQLController {
 		
 		return "files_edit";
 	}
+	
+	
+	/**
+	 * To get all the confirmed files that haven't been read, this query works! Though sadly it's not all that useful in a multi-user environment...
+	 * 
+	 * @return
+	 */
+	public String all_unread() {
+		$q = "select cf.id, cf.comic, cf.number from comic_files as cf"+
+				"left join user_ratings as ur on cf.parent_book_local = ur.comic"+
+				"where cf.parent_book_local IS NOT NULL AND ur.overall IS NULL"+
+				"ORDER BY comic, number";
+		return "unread";
+	}
+	
+	public String transfer_series_unread() {
+		
+		
+		
+		return "unread_series";
+	}
+	
+	/**
+	 * TODO: add in some things that make showing which files haven't been read; 
+	 * there's no end-all-be-all query that I can figure out given the way things 
+	 * are set up. However, the "overall" rating is captured for the user any time
+	 * the comic and/or file is accessed...so it would be trivial to add another 
+	 * javascript array to searches/series overviews
+	 */
+	
 }
