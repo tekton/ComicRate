@@ -121,6 +121,7 @@ public class HomeFilesController extends SQLController {
 	 * 
 	 * TODO: add error handling
 	 * 
+	 * @deprecated
 	 * @param request Standard HTTP request
 	 * @param response Standard HTTP response
 	 * @param id The ID of the file
@@ -162,6 +163,8 @@ public class HomeFilesController extends SQLController {
         
 		this.createConnection();
 
+		model.addAttribute("file_id", id);
+		
 		HomeFile h_file = new HomeFile(this.conn);
 		h_file.setId(id);
 		h_file.getFileFromDB();
@@ -290,7 +293,7 @@ public class HomeFilesController extends SQLController {
 	 * @return
 	 */
 	@RequestMapping(value="/home/unread", method=RequestMethod.GET)
-	public String all_unread() {
+	public String all_unread(Model model, Locale locale) {
 		this.createConnection();
 		
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -319,6 +322,8 @@ public class HomeFilesController extends SQLController {
 
 			while( result.next() ) {
 				System.out.println(result.getString("title")+ " :: "+result.getString("file_id"));
+				
+				String res = json_transfer(model, locale, result.getString("file_id"));
 				
 				/* Debug Loop **/
 				ResultSetMetaData md = result.getMetaData ();
