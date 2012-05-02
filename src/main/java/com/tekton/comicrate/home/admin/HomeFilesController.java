@@ -5,8 +5,12 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 //import java.io.FileOutputStream;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Enumeration;
 import java.util.Locale;
+import java.sql.ResultSetMetaData;
 
 //import java.nio.channels.FileChannel;
 import java.nio.file.*;
@@ -14,6 +18,8 @@ import java.nio.file.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 //import org.springframework.web.bind.ServletRequestUtils;
@@ -35,6 +41,8 @@ import com.tekton.comicrate.home.admin.HomeFiles;
 @Controller
 @SessionAttributes
 public class HomeFilesController extends SQLController {
+	
+	public String user;
 	
 	@RequestMapping(value="/home/files/", method=RequestMethod.GET)
 	public String init_parse(Model model, Locale locale) {
@@ -181,8 +189,6 @@ public class HomeFilesController extends SQLController {
 	        
 	        return "json_transfer";
         }
-        
-        
     }
 	
 	@RequestMapping(value="/home/edit/{id}", method=RequestMethod.GET)
@@ -283,11 +289,57 @@ public class HomeFilesController extends SQLController {
 	 * 
 	 * @return
 	 */
+	@RequestMapping(value="/home/unread", method=RequestMethod.GET)
 	public String all_unread() {
-		$q = "select cf.id, cf.comic, cf.number from comic_files as cf"+
-				"left join user_ratings as ur on cf.parent_book_local = ur.comic"+
-				"where cf.parent_book_local IS NOT NULL AND ur.overall IS NULL"+
-				"ORDER BY comic, number";
+		this.createConnection();
+		
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		this.user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
+		
+		String q = "select c.id, c.title, c.issue_number, cf.path, ur.overall, cf.id as file_id from comic as c "+
+				"left join comic_files as cf on c.id=cf.parent_book_local "+
+				"left join (select * from user_ratings where user = \""+this.user+"\") as ur on ur.comic = c.id "+//;//+
+				"having ur.overall IS NULL AND cf.path IS NOT NULL";
+		
+		try {
+			Statement  stmt = this.conn.createStatement();
+			ResultSet result = null;
+			
+			try {
+				System.out.println( "Query: " + q );
+				//stmt.executeUpdate( q );
+				result = stmt.executeQuery(q);
+			} catch(SQLException e) {
+				//basically "what went wrong this time?!"
+				System.out.println( "SQLException: " + e.getMessage() );
+				System.out.println( "SQLState:     " + e.getSQLState() );
+				System.out.println( "VendorError:  " + e.getErrorCode() );
+			}
+			
+
+			while( result.next() ) {
+				System.out.println(result.getString("title")+ " :: "+result.getString("file_id"));
+				
+				/* Debug Loop **/
+				ResultSetMetaData md = result.getMetaData ();
+				// Get the number of columns in the result set
+				int numCols = md.getColumnCount();
+				int i;
+				for (i=1; i<=numCols; i++) {
+					//if (i > 1) System.out.print(",");
+					//System.out.println(md.getColumnLabel(i));
+					//System.out.println(md.getColumnLabel(i)+" , "+result.getString(md.getColumnLabel(i)));
+				}
+				/* End Debug Loop **/
+				
+			}
+		} catch( Exception e ) {
+			System.out.println( "Something broke... sql_stuff in HomeFiles" );
+			System.out.println( "SQLException " + e.getMessage() );
+			e.printStackTrace();
+		}
+		
+		this.closeConnection();
 		return "unread";
 	}
 	
@@ -304,6 +356,22 @@ public class HomeFilesController extends SQLController {
 	 * are set up. However, the "overall" rating is captured for the user any time
 	 * the comic and/or file is accessed...so it would be trivial to add another 
 	 * javascript array to searches/series overviews
+	 * 
+	 * select c.id, c.title, c.issue_number, cf.path, ur.overall from comic as c 
+			left join comic_files as cf on c.id=cf.parent_book_local
+			left join (select * from user_ratings where user = "tekton") as ur on ur.comic = c.id 
+			where c.title = "Batman"
+			having ur.overall IS NULL;
+	 * 
+	 * That's the closest I've found for when it's based on a series...could remove the where to get all books...
+	 * 
+	 * ...would also need to make sure the book exists on the local drive:
+	 * 
+	 * select c.id, c.title, c.issue_number, cf.path, ur.overall from comic as c 
+			left join comic_files as cf on c.id=cf.parent_book_local
+			left join (select * from user_ratings where user = "tekton") as ur on ur.comic = c.id 
+			having ur.overall IS NULL AND cf.path IS NOT NULL;
+	 * 
 	 */
 	
 }
