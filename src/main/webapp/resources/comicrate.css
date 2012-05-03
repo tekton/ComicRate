@@ -37,7 +37,11 @@ body{ font: 90% "Trebuchet MS", sans-serif; margin: 50px;}
 	border: 1px white solid;
 }
 
-.cmc a, .rate a, .cmc a:visited, .rate a:visited {
+a {
+	color: white;
+}
+
+.cmc a, .rate a, .cmc a:visited, .rate a:visited, a {
 	text-decoration: none;
 	color: inherit;
 }

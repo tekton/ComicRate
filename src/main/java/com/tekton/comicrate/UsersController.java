@@ -54,12 +54,4 @@ public class UsersController {
 
 		return "about";
 	}
-	
-	@RequestMapping(value = "/timeout", method = RequestMethod.GET)
-	public String timeout(Locale locale, Model model) {
-		/**
-		 * TODO: figure out all the things that this can do, like getting you back to where you were before the session timed out!
-		 */
-		return "timeout";
-	}
 }

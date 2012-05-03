@@ -23,7 +23,7 @@
     <http pattern="/login" security="none"/>
     <http pattern="/newuser" security="none"/>
 
-    <http use-expressions="true">
+    <http use-expressions="true" auto-config="true">
         <intercept-url pattern="/admin/**" access="hasRole('admin')"/>
         <intercept-url pattern="/comic/**" access="isAuthenticated()" /><!-- eventually this should move to no restrictions -->
         <intercept-url pattern="/series/**" access="isAuthenticated()" /><!-- eventually this should move to no restrictions -->
@@ -39,9 +39,9 @@
         <remember-me />
 
         <!-- Uncomment to limit the number of sessions a user can have -->
-        <session-management invalid-session-url="/timeout">
+        <!--<session-management invalid-session-url="/timeout">
             <concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
-        </session-management>
+        </session-management>-->
 
     </http>
 
