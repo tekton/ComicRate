@@ -21,7 +21,7 @@ public class NewComicsController extends NewComicController {
 	
 	public String theList;
 	public Set<String> series;
-	//the "easiest" version I would think would be a tab seperated list...
+	//the "easiest" version I would think would be a tab separated list...
 	
 	public String getTheList() {
 		return theList;
@@ -95,6 +95,18 @@ public class NewComicsController extends NewComicController {
 		Integer max = Integer.parseInt(comic.issue_number);
 		
 		for(int i=1; i <= max; i++) { //sometimes there's a 0 or .1 comic; add those later by hand in a different way
+			comic.issue_number = Integer.toString(i);
+			comic.putComicInDB(); //.add(i, comic.putComicInDB());
+			//model.addAttribute("comics", comic_ids);
+		}
+		
+	}
+
+	public void process_series_inc(Comic comic, String start) {
+		System.out.println(comic.reportComic());
+		Integer max = Integer.parseInt(comic.issue_number);
+		
+		for(int i=Integer.parseInt(start); i <= max; i++) { //sometimes there's a 0 or .1 comic; add those later by hand in a different way
 			comic.issue_number = Integer.toString(i);
 			comic.putComicInDB(); //.add(i, comic.putComicInDB());
 			//model.addAttribute("comics", comic_ids);

@@ -44,12 +44,12 @@ public class ComicController extends SQLController {
 		
 	}
 	
-	/*
+	/**
 	 * 
 	 * 
 	 * The "meat" of the application: basic comic data!
 	 * 
-	 * This get the data to show the averages and users rating if they have any for it
+	 * This gets the data to show the averages and users rating if they have any for it
 	 * 
 	 * 
 	 */
