@@ -23,8 +23,6 @@ public class HomeFilesReports extends SQLController {
 
 	@RequestMapping(value="/home/report", method=RequestMethod.GET)
 	public String reportComicsWithNumber(Model model, Locale locale) {
-		
-		
 		return "home_reportComicsWithNumber";
 	}
 	

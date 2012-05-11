@@ -9,7 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Enumeration;
+import java.util.LinkedHashMap;
 import java.util.Locale;
+import java.util.Map;
 import java.sql.ResultSetMetaData;
 
 //import java.nio.channels.FileChannel;
@@ -247,6 +249,13 @@ public class HomeFilesController extends SQLController {
 		return "files_edit";
 	}
 
+	/**
+	 * 
+	 * Testing headers
+	 * 
+	 * @param request
+	 * @return
+	 */
 	@RequestMapping(value="/home/h", method=RequestMethod.GET)
 	public String stuff(HttpServletRequest request) {
 		String headername = "";
@@ -292,7 +301,7 @@ public class HomeFilesController extends SQLController {
 	 * 
 	 * @return
 	 */
-	@RequestMapping(value="/home/unread", method=RequestMethod.GET)
+	@RequestMapping(value="/home/transfer/unread", method=RequestMethod.GET)
 	public String all_unread(Model model, Locale locale) {
 		this.createConnection();
 		
@@ -378,5 +387,97 @@ public class HomeFilesController extends SQLController {
 			having ur.overall IS NULL AND cf.path IS NOT NULL;
 	 * 
 	 */
+	
+	/**
+	 * 
+	 * Getting a basic list of files sorted with the newest ones on top
+	 * 
+	 * @param model
+	 * @param locale
+	 * @return
+	 */
+	@RequestMapping(value="/home/files/list", method=RequestMethod.GET)
+	public String list_all_files(Model model, Locale locale) {
+		String table = "comic_files";
+		String q = "select id from "+table+" ORDER BY id desc LIMIT 500";
+		
+		this.files_list(q, model);
+		
+		return "admin_home/list_all_files";
+	}
+
+	@RequestMapping(value="/home/files/list/{id}", method=RequestMethod.GET)
+	public String list_all_files_desc(Model model, Locale locale, @PathVariable("id") String id) {
+		String table = "comic_files";
+		String q = "select * from "+table+" ORDER BY id desc LIMIT 500";
+		
+		return "admin_home/list_all_files";
+	}
+
+	@RequestMapping(value="/home/files/list/{id}", method=RequestMethod.GET)
+	public String list_all_asc(Model model, Locale locale, @PathVariable("id") String id) {
+		String table = "comic_files";
+		String q = "select * from "+table+" ORDER BY id asc LIMIT 500";
+		
+		return "admin_home/list_all_files";
+	}
+	
+	public void files_list(String q, Model model) {
+		this.createConnection();
+		Map <Integer, HomeFile> map = new LinkedHashMap <Integer, HomeFile>();
+		String last_id = "";
+		
+		try {
+			Statement  stmt  = this.conn.createStatement();
+			ResultSet result = null;
+			
+			try {
+				System.out.println( "Query: " + q ); //TODO move to log
+				//stmt.executeUpdate( q );
+				result = stmt.executeQuery(q);
+			} catch(SQLException e) {
+				//basically "what went wrong this time?!"
+				System.out.println( "SQLException: " + e.getMessage() );
+				System.out.println( "SQLState:     " + e.getSQLState() );
+				System.out.println( "VendorError:  " + e.getErrorCode() );
+			}
+			
+
+			while( result.next() ) {
+				/* Debug Loop **/
+				ResultSetMetaData md = result.getMetaData ();
+				// Get the number of columns in the result set
+				int numCols = md.getColumnCount();
+				int i;
+				for (i=1; i<=numCols; i++) {
+					if (i > 1) System.out.print(",");
+					//System.out.println(md.getColumnLabel(i));
+					System.out.print(md.getColumnLabel(i)+" , "+result.getString(md.getColumnLabel(i)));
+				}
+				System.out.print("\n");
+
+				HomeFile h_file = new HomeFile(this.conn);
+				h_file.setId(result.getString("id"));
+				h_file.getFileFromDB();
+				
+				map.put(Integer.parseInt(result.getString("id")) ,h_file);
+				last_id = result.getString("id");
+				/* End Debug Loop **/
+				
+			}
+		} catch( Exception e ) {
+			System.out.println( "Something broke... files_list in HomeFiles" );
+			System.out.println( "SQLException " + e.getMessage() );
+			e.printStackTrace();
+		}
+		
+		model.addAttribute("files", map);
+		model.addAttribute("last_id", last_id);
+		
+		this.closeConnection();
+	}
+	
+	
+	///// Adding New Files /////
 	
 }

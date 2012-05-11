@@ -147,7 +147,7 @@ public class FilesController extends SQLController {
 	}
 	
 	public Boolean bad_files_list(String file) {
-		
+		//TODO add a sql call to a "do not add" table instead of the hard coded one
 		System.out.println("Checking: bad_files_list:: "+file);
 		
 		List<String> files= new ArrayList<String>();

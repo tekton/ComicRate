@@ -1,3 +1,11 @@
+#top {
+	padding: 20px;
+	background-color: #aaa;
+	border: 1px solid gray;
+	font-size: 110%;
+	margin-bottom: 5px;
+}
+
 #left-nav {
 	font-size: 90%;
 	float: left;
@@ -26,3 +34,21 @@
 }
 
 #left-nav .ui-state-active, #left-nav .ui-widget-content .ui-state-active, #left-nav .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; background: #6eac2c url(images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; }
+
+body {
+	font-family: Verdana;
+}
+
+#main-window {
+	backgroung-color: #ccc;
+	padding: 5px;
+}
+
+#main-window table {
+	padding: 5px;
+	font-size: 90%;
+}
+
+#main-window table tr td {
+	padding: 5px;
+}

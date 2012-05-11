@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 //import java.sql.ResultSetMetaData; //left in for debugging reasons
 import java.sql.PreparedStatement;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -153,12 +155,45 @@ public class AdminController extends SQLController {
 			
 		} catch (Exception e) {
 			System.out.println("admin_increment_book_to_val hates you");
+			System.out.println( "Exception: " + e.getMessage() );
 			this.closeConnection();
 			model.addAttribute("success", "fail");
 			return false;
 		}	
 		
 		return true;
+	}
+	
+	//TODO add series add code; check filename for "of" to set max/do not increment values
+	@RequestMapping(value="/admin/new/series", method=RequestMethod.GET)
+	public String new_series_blank(Model model) {
+		
+		return "new_series_blank";
+	}
+	
+	@RequestMapping(value="/admin/new/series/{name}/{number}", method=RequestMethod.GET)
+	public String new_series_name(Model model, @PathVariable("name") String name, @PathVariable("number") String number) {
+		model.addAttribute("name", name);
+		model.addAttribute("number", max);
+		return "new_series_name";
+	}
+	
+	@RequestMapping(value="/admin/new/series/{name}/{max}", method=RequestMethod.GET)
+	public String new_series_name_max(Model model, @PathVariable("name") String name, @PathVariable("max") String max) {
+		//set attributes so that number and max are the same...
+		model.addAttribute("name", name);
+		model.addAttribute("number", max);
+		model.addAttribute("max", max);
+		return "new_series_name_max";
+	}
+	
+	@RequestMapping(value="/admin/new/series", method=RequestMethod.POST)
+	public String new_series(Model model, HttpServletRequest request) {
+		//String name	= request.getParameter("name");
+		//String max	= request.getParameter("max");
+		//String number	= request.getParameter("number");
+		
+		return "new_series_blank";
 	}
 	
 }

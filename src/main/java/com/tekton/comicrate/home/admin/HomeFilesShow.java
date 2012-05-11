@@ -31,6 +31,15 @@ public class HomeFilesShow extends SQLController {
 	public String c_name;
 	public String c_num;
 	
+	/**
+	 * 
+	 * For use in displaying comics
+	 * 
+	 * @param comic
+	 * @param num
+	 * @param parent
+	 * @return
+	 */
 	public Map<Integer, HomeFile> show_similar_files(String comic, String num, String parent) {
 		this.createConnection();
 		this.c_name = comic;
@@ -40,7 +49,13 @@ public class HomeFilesShow extends SQLController {
 		
 		return files;	
 	}
-	
+	/**
+	 * 
+	 * For use in displaying comics
+	 * 
+	 * @param parent
+	 * @return
+	 */
 	public Map<Integer, HomeFile> show_confirmed_files(String parent) {
 		this.createConnection();
 		Map<Integer, HomeFile> files = this.sql_stuff("SELECT * from "+this.table+" WHERE parent_book_local = \""+parent+"\"");
@@ -49,19 +64,31 @@ public class HomeFilesShow extends SQLController {
 		return files;	
 	}	
 	
+	/**
+	 * 
+	 * Cleans up the comic name for display/xml purposes
+	 * 
+	 * @param comic
+	 * @return
+	 */
 	public String clean_up_comic_name(String comic) {
 		if(comic != null) {
 			String rtn_str = comic.replaceAll("[:_]", " -");
 			return rtn_str;
 		}
-	/*	if(rtn_str.equals("Green Lantern New Guardians")) {
-			rtn_str = "Green Lantern - New Guardians";
-		} */
 		
 		return comic;
 	}
 	
-	//get the files that supposedly match a comic
+	/**
+	 * 
+	 * Find all comics that match the parent book
+	 * 
+	 * @deprecated
+	 * @param model
+	 * @param locale
+	 * @return
+	 */
 	@RequestMapping(value="/file/test", method=RequestMethod.GET)
 	public String test_report_similar_files(Model model, Locale locale) {
 		
@@ -83,12 +110,19 @@ public class HomeFilesShow extends SQLController {
 		return "files_show";
 	}
 	
+	
+	/**
+	 * Basic SQL usage
+	 * 
+	 * @param q
+	 * @return
+	 */
 	public Map<Integer, HomeFile> sql_stuff(String q) {
 		Map <Integer, HomeFile> map = new LinkedHashMap <Integer, HomeFile>();
 		Integer y = 0;
 		
 		try {
-			Statement  stmt = this.conn.createStatement();
+			Statement  stmt  = this.conn.createStatement();
 			ResultSet result = null;
 			
 			try {
@@ -100,7 +134,6 @@ public class HomeFilesShow extends SQLController {
 				System.out.println( "SQLState:     " + e.getSQLState() );
 				System.out.println( "VendorError:  " + e.getErrorCode() );
 			}
-			
 
 			while( result.next() ) {
 				HomeFile file = new HomeFile(this.conn);
@@ -108,8 +141,7 @@ public class HomeFilesShow extends SQLController {
 				file.getFileFromDB();
 					//file.report_rows();
 				map.put(y, file);
-				y++;
-				
+				y++;			
 			}
 		} catch( Exception e ) {
 			System.out.println( "Something broke... sql_stuff in SearchController" );
