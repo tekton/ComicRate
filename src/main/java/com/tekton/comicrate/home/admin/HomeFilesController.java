@@ -216,7 +216,7 @@ public class HomeFilesController extends SQLController {
 		}
 		
 		this.closeConnection();
-		return "files_edit";
+		return "admin_home/files_edit";
 	}
 	
 	/**
@@ -246,7 +246,7 @@ public class HomeFilesController extends SQLController {
 		model.addAttribute("x", c);
 		
 		this.closeConnection();
-		return "files_edit";
+		return "admin_home/files_edit";
 	}
 
 	/**
@@ -292,7 +292,7 @@ public class HomeFilesController extends SQLController {
 		
 		this.closeConnection();
 		
-		return "files_edit";
+		return "admin_home/files_edit";
 	}
 	
 	
@@ -399,13 +399,14 @@ public class HomeFilesController extends SQLController {
 	@RequestMapping(value="/home/files/list", method=RequestMethod.GET)
 	public String list_all_files(Model model, Locale locale) {
 		String table = "comic_files";
-		String q = "select id from "+table+" ORDER BY id desc LIMIT 500";
+		String q = "select max(id) as id from "+table+" GROUP BY comic, number ORDER BY id desc LIMIT 500";
 		
 		this.files_list(q, model);
 		
 		return "admin_home/list_all_files";
 	}
 
+	//TODO due to squishing technique will need to re-engineer these to have +500 prop
 	@RequestMapping(value="/home/files/list/{id}", method=RequestMethod.GET)
 	public String list_all_files_desc(Model model, Locale locale, @PathVariable("id") String id) {
 		String table = "comic_files";

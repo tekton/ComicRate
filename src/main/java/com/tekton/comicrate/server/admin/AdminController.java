@@ -174,7 +174,7 @@ public class AdminController extends SQLController {
 	@RequestMapping(value="/admin/new/series/{name}/{number}", method=RequestMethod.GET)
 	public String new_series_name(Model model, @PathVariable("name") String name, @PathVariable("number") String number) {
 		model.addAttribute("name", name);
-		model.addAttribute("number", max);
+		model.addAttribute("number", number);
 		return "new_series_name";
 	}
 	

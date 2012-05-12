@@ -42,6 +42,7 @@ body {
 #main-window {
 	backgroung-color: #ccc;
 	padding: 5px;
+	margin-left: 200px;
 }
 
 #main-window table {
@@ -51,4 +52,8 @@ body {
 
 #main-window table tr td {
 	padding: 5px;
+}
+
+#comic-file-edit {
+	padding: 10px;
 }

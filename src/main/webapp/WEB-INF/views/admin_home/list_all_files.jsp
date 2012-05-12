@@ -2,7 +2,7 @@
 <%@ taglib prefix="s" uri="http://www.springframework.org/security/tags" %>
 <jsp:include page='../admin_header.jsp'/>
 
-<div class="ui-state-highlight ui-corner-all" style="margin-left: 200px; padding: 5px;">
+<div class="ui-state-highlight ui-corner-all" style="padding: 5px;">
 Below you will find the files that you asked for. Please note the following:
 <ul>
 	<li>Click on the ID of the file will allow you to edit the entry</li>
@@ -21,7 +21,7 @@ Below you will find the files that you asked for. Please note the following:
 	</tr>
 	<c:forEach var="file" items="${files}" varStatus="status">
 		<tr>
-			<td>${file.value.getId()}</td>
+			<td><a href="<c:url value="/home/edit/${file.value.getId()}" />">${file.value.getId()}</a></td>
 			<td>${file.value.getComic()}</td>
 			<td><a href="<c:url value="/admin/increment/${file.value.getComic()}/${file.value.getNumber()}" />">${file.value.getNumber()}</a></td>
 			<td>${file.value.getYear()}</td>
