@@ -13,6 +13,7 @@
 		<link type='text/css' rel='stylesheet' href="<c:url value="/resources/jquery-ui/css/smoothness/jquery-ui-1.8.17.custom.css" />" />
 		<link type='text/css' rel='stylesheet' href="<c:url value="/resources/jquery.ui.stars-3.0/jquery.ui.stars.min.css" />" />
 		<link type='text/css' rel='stylesheet' href="<c:url value="/resources/admin.css" />" />	
+		<title>ComicRate: Admin</title>
 	</head>
 	<body>
 		<div id="top">
