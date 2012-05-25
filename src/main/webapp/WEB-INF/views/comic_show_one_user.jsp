@@ -113,8 +113,7 @@
 			</td>
 		</tr>
 	</table>
-	<div>&nbsp;</div>	
-	<div><a href="<c:url value="/user/comic/edit/${comic.id}" />">Edit My Ratings</a></div>
+	<div>&nbsp;</div>
 	<div><a href="<c:url value="/s/${comic.title}" />">Series Summary</a></div>
 	<div>
 		<h3>Confirmed Local Files</h3>

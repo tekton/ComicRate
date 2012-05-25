@@ -30,7 +30,7 @@ public String create_stars_user_input(String var, String c_name, String id) {
 				"split: 2,"+
 				"disabled: false,"+
 				"callback: function(ui, type, value){"+
-					"$(\""+tid+"-stars-"+c_name+"\").hide();"+
+					"$(\""+id+"-stars-"+c_name+"\").hide();"+
 					"$(\""+id+c_name+"_loading\").show();"
 				+"}"+
 			"});"+
