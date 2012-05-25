@@ -628,6 +628,7 @@ public class Comic extends SQLController {
 		
 		try {
 			pst.executeUpdate(); 
+			System.out.println("Attempting to update user setting:: " + pst.toString() );
 			pst.getGeneratedKeys(); //this doesn't really matter at the moment...
 		} catch(SQLException e) {
 			//basically "what went wrong this time?!"

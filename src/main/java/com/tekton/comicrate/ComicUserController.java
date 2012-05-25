@@ -128,6 +128,9 @@ public class ComicUserController extends SQLController {
 	
 	@RequestMapping(value="/user/comic/json/update/{slot}", method=RequestMethod.POST)
 	public String update_slot_json(Model model, HttpServletRequest request, @PathVariable("slot") String slot) {
+		
+		System.out.println("json slot update called for :: "+slot);
+		
 		String id = request.getParameter("id");
 		String val = request.getParameter("val");
 		
@@ -141,16 +144,17 @@ public class ComicUserController extends SQLController {
 			comic.setId(id);
 			comic.getComicFromDB();
 			
-			if(slot == "overall") {
+			if(slot.equals("overall")) {
+				System.out.println("json slot update called for overall");
 				comic.setOverall(val);
 				comic.updateUserComic();
-			} else if (slot == "art") {
+			} else if (slot.equals("art")) {
 				comic.setArt(val);
 				comic.updateUserComic();
-			} else if (slot == "story") {
+			} else if (slot.equals("story")) {
 				comic.setStory(val);
 				comic.updateUserComic();
-			} else if (slot == "next") {
+			} else if (slot.equals("next")) {
 				comic.setLikely_to_buy_next(val);
 				comic.updateUserComic();
 			}
