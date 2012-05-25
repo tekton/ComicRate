@@ -140,6 +140,22 @@ public class ComicUserController extends SQLController {
 			Comic comic = new Comic(this.conn);
 			comic.setId(id);
 			comic.getComicFromDB();
+			
+			if(slot == "overall") {
+				comic.setOverall(val);
+				comic.updateUserComic();
+			} else if (slot == "art") {
+				comic.setArt(val);
+				comic.updateUserComic();
+			} else if (slot == "story") {
+				comic.setStory(val);
+				comic.updateUserComic();
+			} else if (slot == "next") {
+				comic.setLikely_to_buy_next(val);
+				comic.updateUserComic();
+			}
+			
+			/*//requires 1.7
 			switch(slot) {
 				case "overall":
 					comic.setOverall(val);
@@ -157,7 +173,7 @@ public class ComicUserController extends SQLController {
 					comic.setLikely_to_buy_next(val);
 					comic.updateUserComic();
 					break;
-			}
+			}*/
 		
 			this.closeConnection();
 			
