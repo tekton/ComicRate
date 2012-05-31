@@ -4,6 +4,7 @@ import com.tekton.comicrate.SQLController;
 import com.tekton.comicrate.forms.UserPullList;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
@@ -36,5 +37,14 @@ public class UserPullListController extends SQLController {
 		
 		return "user/readinglists";
 	}
+
+	@RequestMapping(value="/user/pulllist/add/{series}", method=RequestMethod.GET)
+	public String addToPullList(Locale locale, Model model, @PathVariable("series") String series) {
+		
+		this.rl = new UserPullList();
+		model.addAttribute("success", this.rl.addSeries(series));	
+		return "user/json_add_series";
+	}
+	
 	
 }

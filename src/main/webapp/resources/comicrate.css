@@ -134,6 +134,7 @@ a {
 			margin: 0 auto;
 			align: left;
 			clear: both;
+			min-height: 843px;
 		}
 		
 		#container {

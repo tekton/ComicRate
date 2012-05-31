@@ -107,7 +107,7 @@ public class UserPullList extends SQLController {
 		this.createConnection();
 		
 		try {	
-			String sql = "INSERT INTO readinglists (`series`,`user`) VALUES series=? and user=?";
+			String sql = "INSERT INTO readinglists (`series`,`user`) VALUES (? , ?)";
 			PreparedStatement pst = this.conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 			pst.setString(1, series);
 			pst.setString(2, this.user);

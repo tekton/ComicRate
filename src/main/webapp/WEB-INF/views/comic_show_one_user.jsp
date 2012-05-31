@@ -115,6 +115,31 @@
 	</table>
 	<div>&nbsp;</div>
 	<div><a href="<c:url value="/s/${comic.title}" />">Series Summary</a></div>
+	<div><span id="add_to_pulllist">Add to Pull List</span></div>
+	<script>
+		$(document).ready(function(){
+			$("#add_to_pulllist").click(function(){
+				$.ajax({
+					type: "GET",
+					url: "<c:url value="/user/pulllist/add/${comic.title}" />",
+					processData: true,
+					data: {},
+					dataType: "json",
+					success: function(json) {
+						//not really sure we'd need to to anything, maybe change the color?
+						if(json.success > 0) {
+							alert("Added to pull list");
+						} else {
+							alert("Not added, may already be there!");
+						}
+					},
+					error: function(x,y,z) {
+						alert("there was an error adding the series to the pull list::"+z+" -- "+y+" -- "+z);
+					}
+				});
+			});
+		});
+	</script>
 	<div>
 		<h3>Confirmed Local Files</h3>
 			<c:forEach var="item" items="${comic.confirmed_files}" varStatus="status">
