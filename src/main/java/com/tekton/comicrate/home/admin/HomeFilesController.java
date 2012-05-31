@@ -36,7 +36,9 @@ import org.springframework.ui.Model;
 import org.springframework.util.FileCopyUtils;
 
 import com.tekton.comicrate.SQLController;
-import com.tekton.comicrate.files.fileParse;
+
+import com.tekton.comicrate.files.*;
+
 import com.tekton.comicrate.forms.Comic;
 import com.tekton.comicrate.home.admin.HomeFiles;
 
