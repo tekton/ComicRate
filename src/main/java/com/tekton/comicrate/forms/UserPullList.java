@@ -44,12 +44,15 @@ public class UserPullList extends SQLController {
 	public UserPullList() {
 		this.books = new ArrayList<String>();
 		
-		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-		//auth.getName(); //get logged in username; we'll be needing that to find the comic...
-		
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();		
 		this.setUser(auth.getName());
 		
 		//this.user = "";
+	}
+	
+	public UserPullList(String name) {
+		this.books = new ArrayList<String>();
+		this.setUser(name);
 	}
 	
 	public void getUserReadingList() {
