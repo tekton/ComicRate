@@ -32,7 +32,6 @@ public class UserPullListController extends SQLController {
 	public String showUserReadingList(Locale locale, Model model) {
 		
 		this.rl = new UserPullList();
-		this.rl.getUserReadingList();
 		model.addAttribute("pulllist", this.rl.books);
 		
 		return "user/readinglists";

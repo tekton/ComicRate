@@ -9,7 +9,7 @@
 	</tr>
 	<c:forEach var="series" items="${pulllist}" varStatus="status">
 		<tr>
-			<td>${series}</td>
+			<td><a href="<c:url value="/s/${series}"/>">${series}</a></td>
 		</tr>
 	</c:forEach>
 </table>
@@ -17,6 +17,7 @@
 
 <div id="right-nav">
 	Show some options, like copy unread?
+	<p><a href="<c:url value="/home/transfer/readinglist" />">Transfer unread</a></p>
 </div>
 
 <div style="clear: both;">&nbsp;</div>

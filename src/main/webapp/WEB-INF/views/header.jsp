@@ -26,10 +26,11 @@
 			<span class="top_nav-item"><a href="<c:url value="/about/" />">about</a></span>
 			<span class="top_nav-item"><a href="<c:url value="/search/" />">search</a></span>
 			<s:authorize access="isAuthenticated()">
+				<span class="top_nav-item"><a href="<c:url value="/user/pulllist" />">pull list</a></span>
    				<span class="top_nav-item"><a href="<c:url value="/j_spring_security_logout" />">Logout</a></span>
 			</s:authorize>
 			<s:authorize access="hasRole('admin')">
-				[ <a href="<c:url value="/admin/" />">Admin</a> ]
+				<span class="top_nav-item">[ <a href="<c:url value="/admin/" />">Admin</a> ]</span>
 			</s:authorize>
 		</div>
 		
