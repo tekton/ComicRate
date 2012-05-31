@@ -21,8 +21,8 @@ import org.slf4j.LoggerFactory;
 
 public class SQLController {
 	public Connection conn;
-	//public String CONNECTION_URL = "jdbc:mysql://localhost/comicrate?user=comicrate&password=Blizzard1";
-	public String CONNECTION_URL = "jdbc:mysql://mysql.tektonsnow.com/comicrate?user=comicrate&password=Blizzard1";
+	public String CONNECTION_URL = "jdbc:mysql://localhost/comicrate?user=comicrate&password=Blizzard1";
+	//public String CONNECTION_URL = "jdbc:mysql://mysql.tektonsnow.com/comicrate?user=comicrate&password=Blizzard1";
 	
 	private static final Logger sql_logger = LoggerFactory.getLogger(SQLController.class);
 	

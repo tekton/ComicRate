@@ -29,8 +29,7 @@
    				<span class="top_nav-item"><a href="<c:url value="/j_spring_security_logout" />">Logout</a></span>
 			</s:authorize>
 			<s:authorize access="hasRole('admin')">
-				[ Add Comics | Increment Comics | 
-				<a href="<c:url value="/files/root/" />">File Scans</a> ]
+				[ <a href="<c:url value="/admin/" />">Admin</a> ]
 			</s:authorize>
 		</div>
 		

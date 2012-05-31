@@ -603,39 +603,39 @@ public class Comic extends SQLController {
 		this.createConnection();
 		
 		try {	
-		String sql = "INSERT into user_ratings"+
-				"(`user`,`comic`,`overall`,`art`,`story`,`note`,`own_physical`,`likely_to_buy_next`)"+
-				" VALUES (?,?,?,?,?,?,?,?)"+
-				"ON DUPLICATE KEY UPDATE overall=?, art=?, story=?, note=?, own_physical=?, likely_to_buy_next=?";
-		PreparedStatement pst = this.conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		pst.setString(1, this.user);
-		pst.setString(2, this.id);
-		pst.setString(3, this.overall);
-		pst.setString(4, this.art);
-		pst.setString(5, this.story);
-		pst.setString(6, this.note);
-		pst.setString(7, this.getOwn_physical());
-		pst.setString(8, this.likely_to_buy_next);
-		
-		pst.setString(9, this.overall);
-		pst.setString(10, this.art);
-		pst.setString(11, this.story);
-		pst.setString(12, this.note);
-		pst.setString(13, this.own_physical);
-		pst.setString(14, this.likely_to_buy_next);
-		
-		System.out.println(pst.toString());
-		
-		try {
-			pst.executeUpdate(); 
-			System.out.println("Attempting to update user setting:: " + pst.toString() );
-			pst.getGeneratedKeys(); //this doesn't really matter at the moment...
-		} catch(SQLException e) {
-			//basically "what went wrong this time?!"
-			System.out.println( "SQLException: " + e.getMessage() );
-			System.out.println( "SQLState:     " + e.getSQLState() );
-			System.out.println( "VendorError:  " + e.getErrorCode() );
-		}
+			String sql = "INSERT into user_ratings"+
+					"(`user`,`comic`,`overall`,`art`,`story`,`note`,`own_physical`,`likely_to_buy_next`)"+
+					" VALUES (?,?,?,?,?,?,?,?)"+
+					"ON DUPLICATE KEY UPDATE overall=?, art=?, story=?, note=?, own_physical=?, likely_to_buy_next=?";
+			PreparedStatement pst = this.conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			pst.setString(1, this.user);
+			pst.setString(2, this.id);
+			pst.setString(3, this.overall);
+			pst.setString(4, this.art);
+			pst.setString(5, this.story);
+			pst.setString(6, this.note);
+			pst.setString(7, this.getOwn_physical());
+			pst.setString(8, this.likely_to_buy_next);
+			
+			pst.setString(9, this.overall);
+			pst.setString(10, this.art);
+			pst.setString(11, this.story);
+			pst.setString(12, this.note);
+			pst.setString(13, this.own_physical);
+			pst.setString(14, this.likely_to_buy_next);
+			
+			System.out.println(pst.toString());
+			
+			try {
+				pst.executeUpdate(); 
+				System.out.println("Attempting to update user setting:: " + pst.toString() );
+				pst.getGeneratedKeys(); //this doesn't really matter at the moment...
+			} catch(SQLException e) {
+				//basically "what went wrong this time?!"
+				System.out.println( "SQLException: " + e.getMessage() );
+				System.out.println( "SQLState:     " + e.getSQLState() );
+				System.out.println( "VendorError:  " + e.getErrorCode() );
+			}
 		
 		} catch( Exception e ) {
 			System.out.println( "Something broke in COMIC.USER.JAVA during an insert/update" );
