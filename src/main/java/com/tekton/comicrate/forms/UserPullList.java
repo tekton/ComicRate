@@ -47,12 +47,14 @@ public class UserPullList extends SQLController {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();		
 		this.setUser(auth.getName());
 		
+		this.getUserReadingList();
 		//this.user = "";
 	}
 	
 	public UserPullList(String name) {
 		this.books = new ArrayList<String>();
 		this.setUser(name);
+		this.getUserReadingList();
 	}
 	
 	public void getUserReadingList() {

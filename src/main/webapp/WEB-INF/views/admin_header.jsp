@@ -32,7 +32,7 @@
 			<h3><a href="#">Users</a></h3>
 			<div>
 				<ul>
-					<li>List</li>
+					<li><a href="<c:url value="/admin/users/" />">List</a></li>
 					<li>New</li>
 					<li>Options</li>
 				</ul>

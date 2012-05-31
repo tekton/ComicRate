@@ -38,6 +38,7 @@ import org.springframework.util.FileCopyUtils;
 import com.tekton.comicrate.SQLController;
 import com.tekton.comicrate.files.*;
 import com.tekton.comicrate.forms.Comic;
+import com.tekton.comicrate.forms.UserPullList;
 import com.tekton.comicrate.home.admin.HomeFiles;
 
 @Controller
@@ -163,6 +164,14 @@ public class HomeFilesController extends SQLController {
     		Locale locale, 
     		@PathVariable("id") String id) throws Exception {
         
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		this.user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
+		
+		String u_base = "F:\\transfer\\"+this.user;
+		
+		//check to see if folder exists...if not, make it!
+		File user_dir = new File(u_base); if (!user_dir.exists()) user_dir.mkdir();
+		
 		this.createConnection();
 
 		model.addAttribute("file_id", id);
@@ -173,7 +182,7 @@ public class HomeFilesController extends SQLController {
 
         File file = new File(h_file.getPath());
         String f_name = h_file.getComic() + " " + h_file.getNumber() + "." + h_file.getType();
-        String base = "F:\\transfer\\"+f_name;
+        String base = u_base+"\\"+f_name;
         File out_file = new File(base);
         
         this.closeConnection(); //shouldn't need the connection for anything anymore
@@ -303,7 +312,6 @@ public class HomeFilesController extends SQLController {
 	 */
 	@RequestMapping(value="/home/transfer/unread", method=RequestMethod.GET)
 	public String all_unread(Model model, Locale locale) {
-		this.createConnection();
 		
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		this.user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
@@ -312,7 +320,18 @@ public class HomeFilesController extends SQLController {
 				"left join comic_files as cf on c.id=cf.parent_book_local "+
 				"left join (select * from user_ratings where user = \""+this.user+"\") as ur on ur.comic = c.id "+//;//+
 				"having ur.overall IS NULL AND cf.path IS NOT NULL";
+		return this.transfer_things(model, locale, q);
+	}
+	
+	public String transfer_things(Model model, Locale locale, String q) {
+		this.createConnection();
 		
+		/*
+		String q = "select c.id, c.title, c.issue_number, cf.path, ur.overall, cf.id as file_id from comic as c "+
+				"left join comic_files as cf on c.id=cf.parent_book_local "+
+				"left join (select * from user_ratings where user = \""+this.user+"\") as ur on ur.comic = c.id "+//;//+
+				"having ur.overall IS NULL AND cf.path IS NOT NULL";
+		*/
 		try {
 			Statement  stmt = this.conn.createStatement();
 			ResultSet result = null;
@@ -357,11 +376,34 @@ public class HomeFilesController extends SQLController {
 		return "unread";
 	}
 	
-	public String transfer_series_unread() {
+	@RequestMapping(value="/home/transfer/unread/{series}", method=RequestMethod.GET)
+	public String transfer_series_unread(Model model, Locale locale, @PathVariable("series") String series) {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		this.user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
 		
+		String q = "select c.id, c.title, c.issue_number, cf.path, ur.overall, cf.id as file_id from comic as c "+ 
+			"left join comic_files as cf on c.id=cf.parent_book_local "+
+			"left join (select * from user_ratings where user = \""+this.user+"\") as ur on ur.comic = c.id "+ 
+			"where c.title = \""+series+"\" and cf.path IS NOT NULL and ur.overall IS NULL";
 		
+		this.transfer_things(model, locale, q);
 		
-		return "unread_series";
+		return "unread";
+	}
+	
+	@RequestMapping(value="/home/transfer/readinglist", method=RequestMethod.GET)
+	public String transfer_readinglist_unread(Model model, Locale locale) {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		this.user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
+		
+		UserPullList upl = new UserPullList();
+		
+		for(String str : upl.books) {
+			System.out.println("Attempting to transfer unread books ("+str+") for :: "+this.user);
+			this.transfer_series_unread(model, locale, str);
+		}
+		
+		return "rl_transfer";
 	}
 	
 	/**
@@ -374,8 +416,7 @@ public class HomeFilesController extends SQLController {
 	 * select c.id, c.title, c.issue_number, cf.path, ur.overall from comic as c 
 			left join comic_files as cf on c.id=cf.parent_book_local
 			left join (select * from user_ratings where user = "tekton") as ur on ur.comic = c.id 
-			where c.title = "Batman"
-			having ur.overall IS NULL;
+			where c.title = "Batman" and cf.path IS NOT NULL and ud.overall IS NULL;
 	 * 
 	 * That's the closest I've found for when it's based on a series...could remove the where to get all books...
 	 * 
