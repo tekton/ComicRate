@@ -14,7 +14,7 @@
 		</table>	
 	</div>
 	<div>
-		<h3>Entries You Haven't</h3>
+		<h3>Some Entries You Haven't</h3>
 		  <table>
 	    <c:forEach var="item" items="${norate}" varStatus="status">
 	    <tr>
@@ -37,7 +37,12 @@
 		    </c:forEach>
 		</table>
 	</div>
-
+	
+	<p>
+		<div><a href="<c:url value="/user/comic/all" />">All books you've rated</a></div>
+		<div><a href="<c:url value="/user/comic/series" />">All series you've rated</a></div>
+	</p>
+	
 	<p>The time on the server is ${serverTime}.</p>
 	<div style="clear: both;">&nbsp;</div>
 </div>

@@ -179,6 +179,7 @@ public class Search extends SQLController {
 
 
 	public String constructQuery() {
+		//TODO move to prepared statement somehow...
 		String q = "SELECT * from "+this.table+" WHERE id > 0";
 		
 			if(this.text != "" && this.text != null) {

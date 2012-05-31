@@ -16,10 +16,15 @@ public class Series extends SQLController {
 	public String art;
 	public String story;
 	
-	//private String CONNECTION_URL = "jdbc:mysql://localhost/comicrate?user=root&password=Blizzard1";
-	
 	public Series() {
-		this.createConnection();
+		
+	}
+	
+	public Series(String title, String overall, String art, String story) {
+		this.setTitle(title);
+		this.setOverall(overall);
+		this.setArt(art);
+		this.setStory(story);
 	}
 	
 	public String getTitle() {
@@ -55,8 +60,23 @@ public class Series extends SQLController {
 	}
 	
 	public void getSeriesDataFromDB() {
-		String q = "SELECT AVG(overall) as overall, AVG(art) as art, AVG(story) as story FROM comic WHERE title = \""+this.title+"\"GROUP BY title";
-
+		this.createConnection();
+		String q = "select c.title, AVG(ur.overall) as overall, AVG(ur.art) as art, AVG(ur.story) as story from user_ratings as ur"+
+				"left join comic as c on c.id = ur.comic where c.title = "+this.title+" group by c.title";
+		this.processSeriesDataFromDB(q);
+		this.closeConnection();
+	}
+	
+	public void getSeriesDataFromDBForUserAll() {
+		this.createConnection();
+		String user = "";
+		String q = "select c.title, AVG(ur.overall) as overall, AVG(ur.art) as art, AVG(ur.story) as story from user_ratings as ur"+
+				"left join comic as c on c.id = ur.comic where ur.user = "+user+" group by c.title";
+		this.processSeriesDataFromDB(q);
+		this.closeConnection();
+	}
+	
+	public void processSeriesDataFromDB(String q) {
 		ResultSet result = null;
 
 			try {

@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import com.tekton.comicrate.forms.*;
 //import com.tekton.comicrate.home.admin.*;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -183,4 +185,46 @@ public class ComicUserController extends SQLController {
 			
 		return "json_slot";
 	}
+	
+	/**
+	 * 
+	 * This entire function feels dirty on so many levels...
+	 * 
+	 * @param model
+	 * @param locale
+	 * @return
+	 */
+	@RequestMapping(value="/user/comic/all", method=RequestMethod.GET)
+	public String userShowAllRatedComics(Model model, Locale locale) {
+
+		
+		//work like "search" only on the table with ratings...
+		SearchController s = new SearchController();
+		
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		String user = auth.getName(); //get logged in username; we'll be needing that to find the comic...
+		
+		s.createConnection();
+		
+		String q = "select comic as id from user_ratings where user = \""+user+"\"";
+		model.addAttribute("results", s.sql_stuff(q));
+		
+		s.closeConnection();
+
+		return "search_results";
+		
+	}
+	
+	@RequestMapping(value="/user/comic/series", method=RequestMethod.GET)
+	public String userShowAllRatedSeries(Model model, Locale locale) {
+		this.createConnection();
+		
+		//work like "search" only on the table with ratings...
+		UserSeries us = new UserSeries();
+		us.getSeriesDataFromDBForUserAll();
+		model.addAttribute("series", us.series);
+		
+		this.closeConnection();
+		return "user/all_series";
+	}	
 }
