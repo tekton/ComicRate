@@ -103,9 +103,10 @@ public class NewComicsController extends NewComicController {
 	}
 
 	public void process_series_inc(Comic comic, String start) {
-		System.out.println(comic.reportComic());
-		Integer max = Integer.parseInt(comic.issue_number);
 		
+		System.out.println("process_series_inc:: "+comic.reportComic());
+		Integer max = Integer.parseInt(comic.issue_number);
+		System.out.println("process_series_inc:: "+start+" -> "+max);
 		for(int i=Integer.parseInt(start); i <= max; i++) { //sometimes there's a 0 or .1 comic; add those later by hand in a different way
 			comic.issue_number = Integer.toString(i);
 			comic.putComicInDB(); //.add(i, comic.putComicInDB());

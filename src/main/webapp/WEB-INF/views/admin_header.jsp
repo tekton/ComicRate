@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<div id="top">
-			<span>ComicRate Admin Panels</span>
+			<span><a href="<c:url value="/" />">ComicRate Admin Panels</a></span>
 		</div>
 		
 		<div id="left-nav">

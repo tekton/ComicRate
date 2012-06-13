@@ -92,18 +92,16 @@ public class AdminController extends SQLController {
 	public String admin_increment_book_to_val(Model model, @PathVariable("series") String series, @PathVariable("val") String val) {
 		this.createConnection();
 		Comic comic = new Comic(this.conn);
+		comic.setTitle(series);
 		//get the highest numbered version of said book to set later...
 		String q = "select title, year, max(issue_number) as issue_number, max(do_not_increment) as do_not_increment, New52, publisher from comic where title = ?";
-		
 		try {
-			PreparedStatement pst = this.conn.prepareStatement(q, Statement.RETURN_GENERATED_KEYS);
+			PreparedStatement pst = this.conn.prepareStatement(q);
 			pst.setString(1, series);
 			this.inc_comic(pst, model, comic, val);
 		} catch(SQLException e) {
 			
 		}
-		
-		
 
 		this.closeConnection();
 		model.addAttribute("success", "true");
@@ -111,6 +109,7 @@ public class AdminController extends SQLController {
 	}
 	
 	public Boolean inc_comic(PreparedStatement pst, Model model, Comic comic, String val) {
+		System.out.println("inc_comic:: "+val);
 		NewComicsController ncc = new NewComicsController();
 		Integer s = 0;
 		try {
@@ -130,27 +129,45 @@ public class AdminController extends SQLController {
 				return false;
 			}
 			
-
-				while( result.next() ) {
-					if(result.getString("do_not_increment")=="1") {
-						this.closeConnection();
-						model.addAttribute("success", "do_not_increment");
-						return false;
-					} else {
-						comic.setTitle(result.getString("title"));
-						comic.setYear(result.getString("year"));
-						if(val == "inc") {
-							Integer v = Integer.parseInt(result.getString("issue_number")) + 1;
-							val = v.toString();
-						} 
-						comic.setIssue_number(val);
-						comic.setDo_not_increment(result.getString("do_not_increment"));
-						comic.setNew52(result.getString("New52"));
-						comic.setPublisher(result.getString("publisher"));
+				//check if result returned anything, if not give it a comic...
+			
+				String start = "1";
+			
+				if( result.isBeforeFirst() == false ){
+				    System.out.println("time to make a number one...");
+				    /*comic.setIssue_number("1");
+				    comic.putComicInDB(); //might as well make it in the DB...
+					if(val == "inc") {
+						Integer v = 2;
+						val = v.toString();
+					} 
+					comic.setIssue_number(val);
+					ncc.process_series_inc(comic, "1");*/
+				} else {
+					while( result.next() ) {
+						if(result.getString("do_not_increment")=="1") {
+							this.closeConnection();
+							model.addAttribute("success", "do_not_increment");
+							return false;
+						} else {
+							//comic.setTitle(result.getString("title"));
+							comic.setYear(result.getString("year"));
+							if(result.getString("issue_number") != null && result.getString("issue_number") != "") {
+								start = result.getString("issue_number");
+							}
+							if(val == "inc") {
+								Integer v = Integer.parseInt(start) + 1;
+								val = v.toString();
+							} 
+							comic.setIssue_number(val);
+							comic.setDo_not_increment(result.getString("do_not_increment"));
+							comic.setNew52(result.getString("New52"));
+							comic.setPublisher(result.getString("publisher"));
+						}	
 					}
-					ncc.process_series_inc(comic, result.getString("issue_number"));	
 				}
-
+				
+				ncc.process_series_inc(comic, start);
 			
 		} catch (Exception e) {
 			System.out.println("admin_increment_book_to_val hates you");

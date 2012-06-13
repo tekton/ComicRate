@@ -86,6 +86,8 @@ public class SeriesController extends SQLController {
 		model.addAttribute("art_avg", art_avg);
 		model.addAttribute("story_avg", story_avg);
 		
+		model.addAttribute("title", x);
+		
 		this.closeConnection();
 		return "series";
 	}

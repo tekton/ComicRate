@@ -49,6 +49,8 @@ public class NewComicSeries {
 	@RequestMapping(value = "/admin/comics/add", method = RequestMethod.POST)
 	public String add_series(@ModelAttribute("comic") Comic comic, BindingResult result, Locale locale, Model model) {
 		
+		comic.createConnection();
+		
 		if(comic.max == "0" || comic.max == "") {
 			this.max = Integer.parseInt(comic.issue_number);
 		} else {
@@ -66,6 +68,8 @@ public class NewComicSeries {
 			comic_ids.put(i, comic.putComicInDB()); //.add(i, comic.putComicInDB());
 			model.addAttribute("comics", comic_ids);
 		}
+		
+		comic.closeConnection();
 		
 		return "comics_added";
 	}
