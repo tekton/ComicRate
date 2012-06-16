@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<jsp:include page='header.jsp'/>
+<jsp:include page='../admin_header.jsp'/>
 		<form method="post" action="<c:url value="/home/edit/${file.id}"/>">
 			<h3>Contents of File(s)</h3>
 				<table>
@@ -20,4 +20,4 @@
 			<div>[<a href="<c:url value="/user/comic/${comic.id}" />">The Comic</a>]</div>
 		</c:if>
 
-<jsp:include page='footer.jsp'/>
+<jsp:include page='../admin_footer.jsp'/>

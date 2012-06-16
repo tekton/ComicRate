@@ -50,6 +50,7 @@
 					<li>Search</li>
 					<li>Options</li>
 					<li><a href="<c:url value="/home/files/add/" />">Add</a></li>
+					<li><a href="<c:url value="/files/root/" />">Root</a></li>
 				</ul>
 			</div>
 			<h3><a href="#">Server</a></h3>

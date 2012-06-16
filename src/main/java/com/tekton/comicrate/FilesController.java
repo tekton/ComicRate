@@ -46,7 +46,7 @@ public class FilesController extends SQLController {
 		
 		model.addAttribute("folders", folders);
 		
-		return "files_root";
+		return "admin_home/files_root";
 	}
 
 	/*
@@ -78,7 +78,7 @@ public class FilesController extends SQLController {
 		
 		model.addAttribute("folders", folders);
 		
-		return "files_folder";
+		return "admin_home/files_folder";
 	}
 
 	@RequestMapping(value="/files/root/{folder}/{sub}", method=RequestMethod.GET)
@@ -101,7 +101,7 @@ public class FilesController extends SQLController {
 		
 		model.addAttribute("folders", folders);
 		
-		return "files_folder";
+		return "admin_home/files_folder";
 	}
 	
 	@RequestMapping(value="/files/root/{folder}/process", method=RequestMethod.GET)
